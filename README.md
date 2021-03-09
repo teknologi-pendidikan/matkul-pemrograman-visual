@@ -81,27 +81,27 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 
 ## Daftar Asdos
 
-| Panggilan | Nama | Instagram                               |
-| --------- | ---- | --------------------------------------- |
-| Tya       | xx   | https://instagram.com/agungprasetya.adi |
-| Tiyo      | xx   | https://instagram.com/dws.ayu           |
-| Run       | xx   | https://instagram.com/awwape__          |
-| Lur       | xx   | https://instagram.com/nanamey           |
-| Kafa      | xx   | https://instagram.com/errriikaaa        |
-| Sari      | xx   | https://instagram.com/isaansori_        |
-| Anam      | xx   | https://instagram.com/ruzza_man         |
-| Anda      | xx   | https://instagram.com/salsabelatitis    |
-| Ola       | xx   | https://instagram.com/rizkaa.ag         |
-| Ica       | xx   | https://instagram.com/rissaamarthya     |
-| Yaya      | xx   | https://instagram.com/inmthia           |
-| Rai       | xx   | https://instagram.com/heyitsryrie       |
-| Air       | xx   | https://instagram.com/nadiaaif_         |
-| Al        | xx   | https://instagram.com/alfinniken__      |
-| Ariz      | xx   | https://instagram.com/daniarizqi_hmd    |
-| Aku       | xx   | https://instagram.com/dianfrch          |
-| Icad      | xx   | https://instagram.com/kirmichiko        |
-| Adi       | xx   | https://instagram.com/syofriopi1        |
-| Abil      | xx   | https://instagram.com/fais1213          |
+| Panggilan | Nama | Instagram                                                          |
+| --------- | ---- | ------------------------------------------------------------------ |
+| Tya       | xx   | [Akun @agungprasetya.adi](https://instagram.com/agungprasetya.adi) |
+| Tiyo      | xx   | [Akun @dws.ayu](https://instagram.com/dws.ayu)                     |
+| Run       | xx   | [Akun @awwape__](https://instagram.com/awwape__)                   |
+| Lur       | xx   | [Akun @nanamey](https://instagram.com/nanamey)                     |
+| Kafa      | xx   | [Akun @errriikaaa](https://instagram.com/errriikaaa)               |
+| Sari      | xx   | [Akun @isaansori_](https://instagram.com/isaansori_)               |
+| Anam      | xx   | [Akun @ruzza_man](https://instagram.com/ruzza_man)                 |
+| Anda      | xx   | [Akun @salsabelatitis](https://instagram.com/salsabelatitis)       |
+| Ola       | xx   | [Akun @rizkaa.ag](https://instagram.com/rizkaa.ag)                 |
+| Ica       | xx   | [Akun @rissaamarthya](https://instagram.com/rissaamarthya)         |
+| Yaya      | xx   | [Akun @inmthia](https://instagram.com/inmthia)                     |
+| Rai       | xx   | [Akun @heyitsryrie](https://instagram.com/heyitsryrie)             |
+| Air       | xx   | [Akun @nadiaaif_](https://instagram.com/nadiaaif_)                 |
+| Al        | xx   | [Akun @alfinniken__](https://instagram.com/alfinniken__)           |
+| Ariz      | xx   | [Akun @daniarizqi_hmd](https://instagram.com/daniarizqi_hmd)       |
+| Aku       | xx   | [Akun @dianfrch](https://instagram.com/dianfrch)                   |
+| Icad      | xx   | [Akun @kirmichiko](https://instagram.com/kirmichiko)               |
+| Adi       | xx   | [Akun @syofriopi1](https://instagram.com/syofriopi1)               |
+| Abil      | xx   | [Akun @fais1213](https://instagram.com/fais1213)                   |
 
 ## Contoh Jilid Yang Acc
 
