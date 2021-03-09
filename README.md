@@ -115,7 +115,7 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 | Judul               | Pembuat    | Bab          | Link                                                                                                                           |
 | ------------------- | ---------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | Turn On The Light   | Faruq      | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_LampuMati)       |
-| Kompas              | ?          | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_Kompas)          |
-| Mengenal Wali Songo | Habibie Z. | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Habibie_MengenalWaliSongo) |
-| Traffic Light       | Hilman     | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Hilman_TrafficLight)       |
-| Minesweeper         | Rengga     | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/RenggaNugroho_Minesweeper) |
+| Kompas              | ?          | Input Output | [Kode Kompas](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_Kompas)          |
+| Mengenal Wali Songo | Habibie Z. | Input Output | [Kode Walisongo ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Habibie_MengenalWaliSongo) |
+| Traffic Light       | Hilman     | Input Output | [Kode Traffic Light ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Hilman_TrafficLight)       |
+| Minesweeper         | Rengga     | Input Output | [Kode Minesweeper ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/RenggaNugroho_Minesweeper) |
