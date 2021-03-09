@@ -17,6 +17,8 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
       - [Konsep](#konsep)
       - [Jilid](#jilid)
   - [Daftar Asdos](#daftar-asdos)
+  - [Contoh Jilid Yang Acc](#contoh-jilid-yang-acc)
+  - [Contoh Aplikasi](#contoh-aplikasi)
 
 ## Ketentuan Asistensi
 
@@ -61,7 +63,7 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
 
 #### Kolom Jilid
 
-![Penulisan Jilid](docs/penulisan-kkp-jilid.jpeg)
+![Penulisan Jilid](docs/penulisan-kkp-jilid.jpg)
 
 ### Format Penulisan Pada WAG
 
@@ -100,3 +102,10 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 | Adi       |      | https://instagram.com/syofriopi1        |
 | Abil      |      | https://instagram.com/fais1213          |
 
+## Contoh Jilid Yang Acc
+| Judul | Pembuat | Link |
+| ----- | ------- | ---- |
+
+## Contoh Aplikasi
+| Judul | Pembuat | Bab | Link |
+| ----- | ------- | --- | ---- |
