@@ -105,10 +105,10 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 
 ## Contoh Jilid Yang Acc
 
-| Judul             | Pembuat | Link                        |
-| ----------------- | ------- | --------------------------- |
-| Turn On The Light | Faruq   | https://bit.um.ac.id/Ek0ONN |
-| Mengenal Antonim dari Kata Sifat Ukuran dalam Bahasa Inggris | Omar | [Klik Disini](https://drive.google.com/file/d/1PDUEKtvNy2e8a4cwUpBrYNby2CwwKBft/view?usp=drivesdk)
+| Judul                                                        | Pembuat | Link                                                                                               |
+| ------------------------------------------------------------ | ------- | -------------------------------------------------------------------------------------------------- |
+| Turn On The Light                                            | Faruq   | [Klik Disini](https://bit.um.ac.id/Ek0ONN)                                                         |
+| Mengenal Antonim dari Kata Sifat Ukuran dalam Bahasa Inggris | Omar    | [Klik Disini](https://drive.google.com/file/d/1PDUEKtvNy2e8a4cwUpBrYNby2CwwKBft/view?usp=drivesdk) |
 
 ## Contoh Aplikasi
 
