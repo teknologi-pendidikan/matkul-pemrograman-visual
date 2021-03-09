@@ -80,6 +80,7 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 > Mengenal Jenis Batuan / BAB 1 / **TYA** / JILID
 
 ## Daftar Asdos
+
 | Panggilan | Nama | Instagram                               |
 | --------- | ---- | --------------------------------------- |
 | Tya       | xx   | https://instagram.com/agungprasetya.adi |
@@ -103,11 +104,14 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 | Abil      | xx   | https://instagram.com/fais1213          |
 
 ## Contoh Jilid Yang Acc
+
 | Judul             | Pembuat | Link                        |
 | ----------------- | ------- | --------------------------- |
 | Turn On The Light | Faruq   | https://bit.um.ac.id/Ek0ONN |
+| Mengenal Antonim dari Kata Sifat Ukuran dalam Bahasa Inggris | Omar | [Klik Disini](https://drive.google.com/file/d/1PDUEKtvNy2e8a4cwUpBrYNby2CwwKBft/view?usp=drivesdk)
 
 ## Contoh Aplikasi
+
 | Judul             | Pembuat | Bab          | Link                                                                                                                     |
 | ----------------- | ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------ |
 | Turn On The Light | Faruq   | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_LampuMati) |
