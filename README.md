@@ -109,13 +109,14 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 | ------------------------------------------------------------ | ------- | -------------------------------------------------------------------------------------------------- |
 | Turn On The Light                                            | Faruq   | [Klik Disini](https://bit.um.ac.id/Ek0ONN)                                                         |
 | Mengenal Antonim dari Kata Sifat Ukuran dalam Bahasa Inggris | Omar    | [Klik Disini](https://drive.google.com/file/d/1PDUEKtvNy2e8a4cwUpBrYNby2CwwKBft/view?usp=drivesdk) |
+| Minesweeper                                                  | Rengga  | [Klik Disini](https://bit.um.ac.id/rbiFEn)                                                         |
 
 ## Contoh Aplikasi
 
-| Judul               | Pembuat    | Bab          | Link                                                                                                                           |
-| ------------------- | ---------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| Turn On The Light   | Faruq      | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_LampuMati)       |
-| Kompas              | ?          | Input Output | [Kode Kompas](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_Kompas)          |
-| Mengenal Wali Songo | Habibie Z. | Input Output | [Kode Walisongo ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Habibie_MengenalWaliSongo) |
-| Traffic Light       | Hilman     | Input Output | [Kode Traffic Light ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Hilman_TrafficLight)       |
+| Judul               | Pembuat    | Bab          | Link                                                                                                                             |
+| ------------------- | ---------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Turn On The Light   | Faruq      | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_LampuMati)         |
+| Kompas              | ?          | Input Output | [Kode Kompas](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_Kompas)                |
+| Mengenal Wali Songo | Habibie Z. | Input Output | [Kode Walisongo ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Habibie_MengenalWaliSongo)   |
+| Traffic Light       | Hilman     | Input Output | [Kode Traffic Light ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Hilman_TrafficLight)     |
 | Minesweeper         | Rengga     | Input Output | [Kode Minesweeper ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/RenggaNugroho_Minesweeper) |
