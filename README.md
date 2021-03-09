@@ -63,7 +63,7 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
 
 #### Kolom Jilid
 
-![Penulisan Jilid](docs/penulisan-kkp-jilid.jpg)
+![Penulisan Jilid](/docs/penulisan-kkp-jilid.jpg)
 
 ### Format Penulisan Pada WAG
 
@@ -82,30 +82,32 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 ## Daftar Asdos
 | Panggilan | Nama | Instagram                               |
 | --------- | ---- | --------------------------------------- |
-| Tya       |      | https://instagram.com/agungprasetya.adi |
-| Tiyo      |      | https://instagram.com/dws.ayu           |
-| Run       |      | https://instagram.com/awwape__          |
-| Lur       |      | https://instagram.com/nanamey           |
-| Kafa      |      | https://instagram.com/errriikaaa        |
-| Sari      |      | https://instagram.com/isaansori_        |
-| Anam      |      | https://instagram.com/ruzza_man         |
-| Anda      |      | https://instagram.com/salsabelatitis    |
-| Ola       |      | https://instagram.com/rizkaa.ag         |
-| Ica       |      | https://instagram.com/rissaamarthya     |
-| Yaya      |      | https://instagram.com/inmthia           |
-| Rai       |      | https://instagram.com/heyitsryrie       |
-| Air       |      | https://instagram.com/nadiaaif_         |
-| Al        |      | https://instagram.com/alfinniken__      |
-| Ariz      |      | https://instagram.com/daniarizqi_hmd    |
-| Aku       |      | https://instagram.com/dianfrch          |
-| Icad      |      | https://instagram.com/kirmichiko        |
-| Adi       |      | https://instagram.com/syofriopi1        |
-| Abil      |      | https://instagram.com/fais1213          |
+| Tya       | xx   | https://instagram.com/agungprasetya.adi |
+| Tiyo      | xx   | https://instagram.com/dws.ayu           |
+| Run       | xx   | https://instagram.com/awwape__          |
+| Lur       | xx   | https://instagram.com/nanamey           |
+| Kafa      | xx   | https://instagram.com/errriikaaa        |
+| Sari      | xx   | https://instagram.com/isaansori_        |
+| Anam      | xx   | https://instagram.com/ruzza_man         |
+| Anda      | xx   | https://instagram.com/salsabelatitis    |
+| Ola       | xx   | https://instagram.com/rizkaa.ag         |
+| Ica       | xx   | https://instagram.com/rissaamarthya     |
+| Yaya      | xx   | https://instagram.com/inmthia           |
+| Rai       | xx   | https://instagram.com/heyitsryrie       |
+| Air       | xx   | https://instagram.com/nadiaaif_         |
+| Al        | xx   | https://instagram.com/alfinniken__      |
+| Ariz      | xx   | https://instagram.com/daniarizqi_hmd    |
+| Aku       | xx   | https://instagram.com/dianfrch          |
+| Icad      | xx   | https://instagram.com/kirmichiko        |
+| Adi       | xx   | https://instagram.com/syofriopi1        |
+| Abil      | xx   | https://instagram.com/fais1213          |
 
 ## Contoh Jilid Yang Acc
-| Judul | Pembuat | Link |
-| ----- | ------- | ---- |
+| Judul             | Pembuat | Link                        |
+| ----------------- | ------- | --------------------------- |
+| Turn On The Light | Faruq   | https://bit.um.ac.id/Ek0ONN |
 
 ## Contoh Aplikasi
-| Judul | Pembuat | Bab | Link |
-| ----- | ------- | --- | ---- |
+| Judul             | Pembuat | Bab          | Link                                                                                                                     |
+| ----------------- | ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Turn On The Light | Faruq   | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_LampuMati) |
