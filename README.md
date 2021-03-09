@@ -11,6 +11,11 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
   - [Ketentuan Asistensi](#ketentuan-asistensi)
     - [Tata Cara Asistensi:](#tata-cara-asistensi)
     - [Langkah-langkah Asistensi Khusus yang bisa menyelesaikan Tantangan:](#langkah-langkah-asistensi-khusus-yang-bisa-menyelesaikan-tantangan)
+    - [Format Penulisan Pada KKP](#format-penulisan-pada-kkp)
+      - [Kolom Jilid](#kolom-jilid)
+    - [Format Penulisan Pada WAG](#format-penulisan-pada-wag)
+      - [Konsep](#konsep)
+      - [Jilid](#jilid)
   - [Daftar Asdos](#daftar-asdos)
 
 ## Ketentuan Asistensi
@@ -51,6 +56,26 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
 15.	Jika 15 ⭐ terdistribusi semua di seluruh offering
 16.	Bersiap-siaplah untuk **mengajukan** judul sesuai BAB yang sedang dikerjakan (Catatan: Judul **tidak boleh ada yang sama** satu angkatan), setelah **diijinkan** oleh Dosen Pembina MK untuk **posting** di WAG
 17. Langkah-langkah Asistensi Konsep untuk yang **Non** ⭐, akan diatur kemudian oleh asisten
+
+### Format Penulisan Pada KKP
+
+#### Kolom Jilid
+
+![Penulisan Jilid](docs/penulisan-kkp-jilid.jpeg)
+
+### Format Penulisan Pada WAG
+
+#### Konsep
+
+Judul / BAB xx / **NAMA ASPRAK**
+
+> Mengenal Jenis Batuan / BAB 1 / **TYA**
+
+#### Jilid
+
+Judul / BAB xx / **NAMA ASPRAK** / JILID
+
+> Mengenal Jenis Batuan / BAB 1 / **TYA** / JILID
 
 ## Daftar Asdos
 | Panggilan | Nama | Instagram                               |
