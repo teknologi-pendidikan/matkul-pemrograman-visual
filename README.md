@@ -110,6 +110,12 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 | Turn On The Light                                            | Faruq   | [Klik Disini](https://bit.um.ac.id/Ek0ONN)                                                         |
 | Mengenal Antonim dari Kata Sifat Ukuran dalam Bahasa Inggris | Omar    | [Klik Disini](https://drive.google.com/file/d/1PDUEKtvNy2e8a4cwUpBrYNby2CwwKBft/view?usp=drivesdk) |
 | Minesweeper                                                  | Rengga  | [Klik Disini](https://bit.um.ac.id/rbiFEn)                                                         |
+| Mengenal Antonim dari Kata Sifat Ukuran dalam Bahasa Inggris | Omar    | [Klik Disini](https://drive.google.com/file/d/1PDUEKtvNy2e8a4cwUpBrYNby2CwwKBft/view?usp=drivesdk) |
+| Belajar Bentuk Dasar                                         | Fitrah  | [Klik Disini](https://drive.google.com/file/d/1KWO7_AGw0I5rmL6ockDuZTbi5QOBtuhV/view?usp=sharing)  |
+| Mengenal Kunci Dasar Gitar                                   | Iqbal   | [Klik Disini](https://drive.google.com/file/d/1A3UQemq5M-CwP3a6T-rDss8v_gTOVizr/view?usp=drivesdk) |
+| ?                                                            | Nida    | [Klik Disini](https://drive.google.com/file/d/1SU-m6-3cpZWPRo95xSGb4rTH4xnOOfEE/view?usp=drivesdk) |
+| Mengenal Waktu Daerah Indonesia                              | Salsa   | [Klik Disini](https://drive.google.com/file/d/1g2ojN4QzI2yqLyHmVz41qXHQOQntWDCo/view?usp=drivesdk) |
+| Belajar Simple Presents Tense                                | Kemas   | [Klik Disini](https://drive.google.com/file/d/1v1k_UYr3VDEe-YT0yZtrsp1PvAdwz42y/view?usp=drivesdk) |
 
 ## Contoh Aplikasi
 
