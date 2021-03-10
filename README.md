@@ -86,27 +86,27 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 
 ## Daftar Asdos
 
-| Panggilan | Nama | Instagram                                                          |
-| --------- | ---- | ------------------------------------------------------------------ |
-| Tya       | xx   | [Akun @agungprasetya.adi](https://instagram.com/agungprasetya.adi) |
-| Tiyo      | xx   | [Akun @dws.ayu](https://instagram.com/dws.ayu)                     |
-| Run       | xx   | [Akun @awwape__](https://instagram.com/awwape__)                   |
-| Lur       | xx   | [Akun @nanamey](https://instagram.com/nanamey)                     |
-| Kafa      | xx   | [Akun @errriikaaa](https://instagram.com/errriikaaa)               |
-| Sari      | xx   | [Akun @isaansori_](https://instagram.com/isaansori_)               |
-| Anam      | xx   | [Akun @ruzza_man](https://instagram.com/ruzza_man)                 |
-| Anda      | xx   | [Akun @salsabelatitis](https://instagram.com/salsabelatitis)       |
-| Ola       | xx   | [Akun @rizkaa.ag](https://instagram.com/rizkaa.ag)                 |
-| Ica       | xx   | [Akun @rissaamarthya](https://instagram.com/rissaamarthya)         |
-| Yaya      | xx   | [Akun @inmthia](https://instagram.com/inmthia)                     |
-| Rai       | xx   | [Akun @heyitsryrie](https://instagram.com/heyitsryrie)             |
-| Air       | xx   | [Akun @nadiaaif_](https://instagram.com/nadiaaif_)                 |
-| Al        | xx   | [Akun @alfinniken__](https://instagram.com/alfinniken__)           |
-| Ariz      | xx   | [Akun @daniarizqi_hmd](https://instagram.com/daniarizqi_hmd)       |
-| Aku       | xx   | [Akun @dianfrch](https://instagram.com/dianfrch)                   |
-| Icad      | xx   | [Akun @kirmichiko](https://instagram.com/kirmichiko)               |
-| Adi       | xx   | [Akun @syofriopi1](https://instagram.com/syofriopi1)               |
-| Abil      | xx   | [Akun @fais1213](https://instagram.com/fais1213)                   |
+| Panggilan | Nomor WHatsapp                          | Instagram                                                          |
+| --------- | --------------------------------------- | ------------------------------------------------------------------ |
+| Tya       | [Whatsapp](https://wa.me/6281249319720) | [Akun @agungprasetya.adi](https://instagram.com/agungprasetya.adi) |
+| Tiyo      | [Whatsapp](https://wa.me/62)            | [Akun @dws.ayu](https://instagram.com/dws.ayu)                     |
+| Run       | [Whatsapp](https://wa.me/62)            | [Akun @awwape__](https://instagram.com/awwape__)                   |
+| Lur       | [Whatsapp](https://wa.me/62)            | [Akun @nanamey](https://instagram.com/nanamey)                     |
+| Kafa      | [Whatsapp](https://wa.me/62)            | [Akun @errriikaaa](https://instagram.com/errriikaaa)               |
+| Sari      | [Whatsapp](https://wa.me/62)            | [Akun @isaansori_](https://instagram.com/isaansori_)               |
+| Anam      | [Whatsapp](https://wa.me/62)            | [Akun @ruzza_man](https://instagram.com/ruzza_man)                 |
+| Anda      | [Whatsapp](https://wa.me/62)            | [Akun @salsabelatitis](https://instagram.com/salsabelatitis)       |
+| Ola       | [Whatsapp](https://wa.me/62)            | [Akun @rizkaa.ag](https://instagram.com/rizkaa.ag)                 |
+| Ica       | [Whatsapp](https://wa.me/62)            | [Akun @rissaamarthya](https://instagram.com/rissaamarthya)         |
+| Yaya      | [Whatsapp](https://wa.me/62)            | [Akun @inmthia](https://instagram.com/inmthia)                     |
+| Rai       | [Whatsapp](https://wa.me/62)            | [Akun @heyitsryrie](https://instagram.com/heyitsryrie)             |
+| Air       | [Whatsapp](https://wa.me/62)            | [Akun @nadiaaif_](https://instagram.com/nadiaaif_)                 |
+| Al        | [Whatsapp](https://wa.me/62)            | [Akun @alfinniken__](https://instagram.com/alfinniken__)           |
+| Ariz      | [Whatsapp](https://wa.me/62)            | [Akun @daniarizqi_hmd](https://instagram.com/daniarizqi_hmd)       |
+| Aku       | [Whatsapp](https://wa.me/62)            | [Akun @dianfrch](https://instagram.com/dianfrch)                   |
+| Icad      | [Whatsapp](https://wa.me/62)            | [Akun @kirmichiko](https://instagram.com/kirmichiko)               |
+| Adi       | [Whatsapp](https://wa.me/62)            | [Akun @syofriopi1](https://instagram.com/syofriopi1)               |
+| Abil      | [Whatsapp](https://wa.me/62)            | [Akun @fais1213](https://instagram.com/fais1213)                   |
 
 ## Contoh Jilid Yang Acc
 
