@@ -24,6 +24,7 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
 ## Daftar Judul Sebelumnya
 
 1. [Daftar Judul Bab II](/daftar-judul.md#bab-ii-input-output)
+2. [Komentar Koding Delphi](/komentar.md)
 
 ## Ketentuan Asistensi
 
