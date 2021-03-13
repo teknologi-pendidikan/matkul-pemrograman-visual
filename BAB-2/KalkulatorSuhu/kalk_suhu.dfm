@@ -13,7 +13,7 @@ object Kalkulator_Suhu: TKalkulator_Suhu
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object lbl1: TLabel
+  object L1: TLabel
     Left = 376
     Top = 152
     Width = 66
@@ -27,7 +27,7 @@ object Kalkulator_Suhu: TKalkulator_Suhu
     Font.Style = []
     ParentFont = False
   end
-  object lbl6: TLabel
+  object L2: TLabel
     Left = 248
     Top = 160
     Width = 83
@@ -40,7 +40,7 @@ object Kalkulator_Suhu: TKalkulator_Suhu
     Font.Style = []
     ParentFont = False
   end
-  object lbl7: TLabel
+  object L3: TLabel
     Left = 448
     Top = 144
     Width = 10
@@ -53,11 +53,11 @@ object Kalkulator_Suhu: TKalkulator_Suhu
     Font.Style = []
     ParentFont = False
   end
-  object edt1: TEdit
+  object e1: TEdit
     Left = 24
     Top = 16
     Width = 449
-    Height = 57
+    Height = 56
     BiDiMode = bdRightToLeft
     Color = clLime
     Font.Charset = DEFAULT_CHARSET
@@ -70,7 +70,7 @@ object Kalkulator_Suhu: TKalkulator_Suhu
     TabOrder = 0
     Text = '00000'
   end
-  object btn1: TButton
+  object b1: TButton
     Left = 24
     Top = 88
     Width = 105
@@ -83,33 +83,33 @@ object Kalkulator_Suhu: TKalkulator_Suhu
     Font.Style = []
     ParentFont = False
     TabOrder = 1
-    OnClick = btn1Click
+    OnClick = b1Click
   end
-  object btn2: TButton
+  object b2: TButton
     Left = 144
     Top = 88
     Width = 105
     Height = 41
     Caption = 'Ubah ke Fahrenit'
     TabOrder = 2
-    OnClick = btn2Click
+    OnClick = b2Click
   end
-  object btn3: TButton
+  object b3: TButton
     Left = 264
     Top = 88
     Width = 105
     Height = 41
     Caption = 'Ubah ke Kelvin'
     TabOrder = 3
-    OnClick = btn3Click
+    OnClick = b3Click
   end
-  object btn4: TButton
+  object b4: TButton
     Left = 384
     Top = 88
     Width = 89
     Height = 41
     Caption = 'Ubah ke Celcius'
     TabOrder = 4
-    OnClick = btn4Click
+    OnClick = b4Click
   end
 end

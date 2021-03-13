@@ -8,18 +8,18 @@ uses
 
 type
   TKalkulator_Suhu = class(TForm)
-    edt1: TEdit;
-    lbl1: TLabel;
-    btn1: TButton;
-    lbl6: TLabel;
-    lbl7: TLabel;
-    btn2: TButton;
-    btn3: TButton;
-    btn4: TButton;
-    procedure btn1Click(Sender: TObject);
-    procedure btn2Click(Sender: TObject);
-    procedure btn3Click(Sender: TObject);
-    procedure btn4Click(Sender: TObject);
+    e1: TEdit;
+    L1: TLabel;
+    L2: TLabel;
+    L3: TLabel;
+    b1: TButton;
+    b2: TButton;
+    b3: TButton;
+    b4: TButton;
+    procedure b1Click(Sender: TObject);
+    procedure b2Click(Sender: TObject);
+    procedure b3Click(Sender: TObject);
+    procedure b4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,36 +33,36 @@ implementation
 
 {$R *.dfm}
 
-procedure TKalkulator_Suhu.btn1Click(Sender: TObject);
+procedure TKalkulator_Suhu.b1Click(Sender: TObject);
 var input: Double;
 begin
-  input:=StrToFloat(edt1.Text);
-  lbl1.Caption:=FloattoStr(Convert(input, tuCelsius, tuReaumur));
-  lbl6.Caption:='Reamur';
+input:=StrToFloat(e1.Text);
+L1.Caption:=FloattoStr(Convert(input, tuCelsius, tuReaumur));
+L2.Caption:='Reamur';
 end;
 
-procedure TKalkulator_Suhu.btn2Click(Sender: TObject);
+procedure TKalkulator_Suhu.b2Click(Sender: TObject);
 var input: Double;
 begin
-  input:=StrToFloat(edt1.Text);
-lbl1.Caption:=FloattoStr(Convert(input, tuCelsius, tuFahrenheit));
-  lbl6.Caption:='Fahreinheit';
+input:=StrToFloat(e1.Text);
+L1.Caption:=FloattoStr(Convert(input, tuCelsius, tuFahrenheit));
+L2.Caption:='Fahreinheit';
 end;
 
-procedure TKalkulator_Suhu.btn3Click(Sender: TObject);
+procedure TKalkulator_Suhu.b3Click(Sender: TObject);
 var input: Double;
 begin
-  input:=StrToFloat(edt1.Text);
-lbl1.Caption:=FloattoStr(Convert(input, tuCelsius, tuKelvin));
-lbl6.Caption:='Kelvin';
+input:=StrToFloat(e1.Text);
+L1.Caption:=FloattoStr(Convert(input, tuCelsius, tuKelvin));
+L2.Caption:='Kelvin';
 end;
 
-procedure TKalkulator_Suhu.btn4Click(Sender: TObject);
+procedure TKalkulator_Suhu.b4Click(Sender: TObject);
 var input: Double;
 begin
-    input:=StrToFloat(edt1.Text);
-lbl1.Caption:=FloattoStr(Convert(input, tuCelsius, tuCelsius));
-lbl6.Caption:='Celsius';
+input:=StrToFloat(e1.Text);
+L1.Caption:=FloattoStr(Convert(input, tuCelsius, tuCelsius));
+L2.Caption:='Celsius';
 end;
 
 end.
