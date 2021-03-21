@@ -1,6 +1,6 @@
 object wo_Descending: Two_Descending
-  Left = 938
-  Top = 320
+  Left = 964
+  Top = 253
   Width = 345
   Height = 198
   Caption = 'wo_Descending'

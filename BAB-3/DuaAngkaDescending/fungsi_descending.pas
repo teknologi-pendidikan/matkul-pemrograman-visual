@@ -32,13 +32,14 @@ b:=StrtoFloat(e2.Text);
 
 if a>b then
 begin
-  e1.Text:=FloattoStr(b);
-  e2.Text:=FloattoStr(a);
-end
-else if a<b then
-begin
   e1.Text:=FloattoStr(a);
   e2.Text:=FloattoStr(b);
+end;
+
+if a<b then
+begin
+  e1.Text:=FloattoStr(b);
+  e2.Text:=FloattoStr(a);
 end
 
 end;

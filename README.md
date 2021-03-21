@@ -1,17 +1,22 @@
 # Repositori Matakuliah Pemrograman Visual
+
+Terakhir diperbarui pada: 20 Maret 2021 @ 21:29 UTC+7
+
 Dosen Pengampu: [Dr. Yerry Soepriyanto, S.T, M.T](https://scholar.google.com/citations?user=JruNllQAAAAJ&hl=en)
 
 ## Overview
+
 Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode sumber ini berasal dari challange maupun aplikasi yang dibuat oleh Mahasiswa TEP UM 2020 yang mengambil matakuliah pemrograman visual.
 
 ## Daftar Isi
+
 - [Repositori Matakuliah Pemrograman Visual](#repositori-matakuliah-pemrograman-visual)
   - [Overview](#overview)
   - [Daftar Isi](#daftar-isi)
-  - [Daftar Judul Sebelumnya](#daftar-judul-sebelumnya)
+  - [Tautan Penting](#tautan-penting)
   - [Ketentuan Asistensi](#ketentuan-asistensi)
-    - [Tata Cara Asistensi:](#tata-cara-asistensi)
-    - [Langkah-langkah Asistensi Khusus yang bisa menyelesaikan Tantangan:](#langkah-langkah-asistensi-khusus-yang-bisa-menyelesaikan-tantangan)
+    - [Tata Cara Asistensi](#tata-cara-asistensi)
+    - [Langkah-langkah Asistensi Khusus yang bisa menyelesaikan Tantangan](#langkah-langkah-asistensi-khusus-yang-bisa-menyelesaikan-tantangan)
     - [Format Penulisan Pada KKP](#format-penulisan-pada-kkp)
       - [Kolom Jilid](#kolom-jilid)
     - [Format Penulisan Pada WAG](#format-penulisan-pada-wag)
@@ -21,14 +26,17 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
   - [Contoh Jilid Yang Acc](#contoh-jilid-yang-acc)
   - [Contoh Aplikasi](#contoh-aplikasi)
 
-## Daftar Judul Sebelumnya
+## Tautan Penting
 
-1. [Daftar Judul Bab II](/daftar-judul.md#bab-ii-input-output)
+1. [Daftar Jilid](/daftar-judul.md)
 2. [Komentar Koding Delphi](/komentar.md)
+3. [Tracker Asisten Praktikum](https://tep.my.id/pv-asdos-kosong)
+4. [Tracker Matakuliah Pemrograman Visual](https://tep.my.id/pv-tracker)
+5. [Tracker Riwayat Asistensi Mahasiswa](https://tep.my.id/pv-tracker-kelas)
 
 ## Ketentuan Asistensi
 
-### Tata Cara Asistensi:
+### Tata Cara Asistensi
 
 1. Menghubungi asisten melalui DM Instagram.
 2. Memperkenalkan diri secara lengkap dan jelas kepada asisten.
@@ -45,24 +53,24 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
 13. Apabila praktikkan melanggar tata tertib, asisten berhak memberi sanksi berupa pemberian bolpoin merah.
 14. Demi kelancaran proses asistensi, praktikan menyesuaikan aktifitas asisten
 
-### Langkah-langkah Asistensi Khusus yang bisa menyelesaikan Tantangan:
+### Langkah-langkah Asistensi Khusus yang bisa menyelesaikan Tantangan
 
-1. Mahasiswa akan diberi tantangan untuk menyelesaikan program aplikasi berdasarkan BAB yang dipelajari dengan requirement yang telah ditetapkan. 
-2. Apabila mahasiswa mampu menyelesaikannya segera menghubungi Dosen Pembina Mata Kuliah (PC) untuk melakukan validasi dan verifikasi program aplikasi yang dibuat dengan kirim pesan ☝️. 
-3. Tunggu selama 24 jam. 
+1. Mahasiswa akan diberi tantangan untuk menyelesaikan program aplikasi berdasarkan BAB yang dipelajari dengan requirement yang telah ditetapkan.
+2. Apabila mahasiswa mampu menyelesaikannya segera menghubungi Dosen Pembina Mata Kuliah (PC) untuk melakukan validasi dan verifikasi program aplikasi yang dibuat dengan kirim pesan ☝️.
+3. Tunggu selama 24 jam.
 4. Prioritas Tanggapan adalah yang PC terlebih dahulu
-5. Jika sudah ada tanggapan siapkan software **Teamviewer** -nya, 
+5. Jika sudah ada tanggapan siapkan software **Teamviewer** -nya,
 6. beritahukan **ID dan Password** anda secara PC kepada Dosen Pembina Mata Kuliah
 7. Proses validasi dan verifikasi berlangsung
 8. Jika program **tidak error** dan diterima oleh Dosen Pembina mata kuliah
 9. Tuliskan pada KKP anda di kolom keterangan gambar ⭐
-10. Tulis juga di kolom Konsep angka 0, 
+10. Tulis juga di kolom Konsep angka 0,
 11. Mahasiswa posting  di WAG dengan menuliskan nomor dan judul tantangan yang diselesaikan + ⭐
 12. Jika program anda **Error** dan tidak bisa diterima oleh Dosen Pembina Mata kuliah, maka silahkan dibenahi (Berharaplah tidak ada yg mampu menyelesaikannya selain anda)
 13. Jika program yang anda benahi ternyata sdh ada yg mampu menyelesaikannya (ditandai ada yg posting judul yang sama di Group)
-14.	Carilah tantangan lain yang belum diselesaikan (berdoalah supaya mendapat kesempatan meraih ⭐)
-15.	Jika 15 ⭐ terdistribusi semua di seluruh offering
-16.	Bersiap-siaplah untuk **mengajukan** judul sesuai BAB yang sedang dikerjakan (Catatan: Judul **tidak boleh ada yang sama** satu angkatan), setelah **diijinkan** oleh Dosen Pembina MK untuk **posting** di WAG
+14. Carilah tantangan lain yang belum diselesaikan (berdoalah supaya mendapat kesempatan meraih ⭐)
+15. Jika 15 ⭐ terdistribusi semua di seluruh offering
+16. Bersiap-siaplah untuk **mengajukan** judul sesuai BAB yang sedang dikerjakan (Catatan: Judul **tidak boleh ada yang sama** satu angkatan), setelah **diijinkan** oleh Dosen Pembina MK untuk **posting** di WAG
 17. Langkah-langkah Asistensi Konsep untuk yang **Non** ⭐, akan diatur kemudian oleh asisten
 
 ### Format Penulisan Pada KKP
@@ -129,9 +137,9 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 | -------------------- | ---------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | Turn On The Light    | Faruq      | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_LampuMati)         |
 | Kompas               | ?          | Input Output | [Kode Kompas](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_Kompas)                |
-| Mengenal Wali Songo  | Habibie Z. | Input Output | [Kode Walisongo ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Habibie_MengenalWaliSongo)   |
-| Traffic Light        | Hilman     | Input Output | [Kode Traffic Light ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Hilman_TrafficLight)     |
-| Minesweeper          | Rengga     | Input Output | [Kode Minesweeper ](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/RenggaNugroho_Minesweeper) |
+| Mengenal Wali Songo  | Habibie Z. | Input Output | [Kode Walisongo](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Habibie_MengenalWaliSongo)   |
+| Traffic Light        | Hilman     | Input Output | [Kode Traffic Light](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Hilman_TrafficLight)     |
+| Minesweeper          | Rengga     | Input Output | [Kode Minesweeper](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/RenggaNugroho_Minesweeper) |
 | Body Mass Index      | Dimasiqi   | Aritmatika   | [Kode BMI](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-2/BodyMassIndex)                      |
 | Kalkulator Fleksibel | Adiz       | Aritmatika   | [Kode Kalk Fleksibel](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-2/KalkulatorFleksibel)     |
 | Kalkulator Suhu      | Rengga     | Aritmatika   | [Kode Kalk Suhu](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-2/KalkulatorSuhu)               |
