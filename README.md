@@ -23,8 +23,7 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
       - [Konsep](#konsep)
       - [Jilid](#jilid)
   - [Daftar Asdos](#daftar-asdos)
-  - [Contoh Jilid Yang Acc](#contoh-jilid-yang-acc)
-  - [Contoh Aplikasi](#contoh-aplikasi)
+
 
 ## Tautan Penting
 
@@ -33,6 +32,8 @@ Repositori ini berisi kode sumber aplikasi matakuliah pemrograman visual. Kode s
 3. [Tracker Asisten Praktikum](https://tep.my.id/pv-asdos-kosong)
 4. [Tracker Matakuliah Pemrograman Visual](https://tep.my.id/pv-tracker)
 5. [Tracker Riwayat Asistensi Mahasiswa](https://tep.my.id/pv-tracker-kelas)
+6. [Contoh Jilid Yang Acc](https://docs.google.com/spreadsheets/d/e/2PACX-1vRdobAxcaSManychgNh7PSZ6oCzVMsGSQBIk_gr6iecvZzvpWBoWefWZbR0mRv4Q_HbCJNAqTyGzn7P/pubhtml)
+7. [Contoh Aplikasi](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual)
 
 ## Ketentuan Asistensi
 
@@ -116,31 +117,3 @@ Judul / BAB xx / **NAMA ASPRAK** / JILID
 | Icad      | [Whatsapp](https://wa.me/62)            | [Akun @kirmichiko](https://instagram.com/kirmichiko)               |
 | Adi       | [Whatsapp](https://wa.me/62)            | [Akun @syofriopi1](https://instagram.com/syofriopi1)               |
 | Abil      | [Whatsapp](https://wa.me/62)            | [Akun @fais1213](https://instagram.com/fais1213)                   |
-
-## Contoh Jilid Yang Acc
-
-| Judul                                                        | Pembuat | Link                                                                                               |
-| ------------------------------------------------------------ | ------- | -------------------------------------------------------------------------------------------------- |
-| Turn On The Light                                            | Faruq   | [Klik Disini](https://bit.um.ac.id/Ek0ONN)                                                         |
-| Mengenal Antonim dari Kata Sifat Ukuran dalam Bahasa Inggris | Omar    | [Klik Disini](https://drive.google.com/file/d/1PDUEKtvNy2e8a4cwUpBrYNby2CwwKBft/view?usp=drivesdk) |
-| Minesweeper                                                  | Rengga  | [Klik Disini](https://bit.um.ac.id/rbiFEn)                                                         |
-| Mengenal Antonim dari Kata Sifat Ukuran dalam Bahasa Inggris | Omar    | [Klik Disini](https://drive.google.com/file/d/1PDUEKtvNy2e8a4cwUpBrYNby2CwwKBft/view?usp=drivesdk) |
-| Belajar Bentuk Dasar                                         | Fitrah  | [Klik Disini](https://drive.google.com/file/d/1KWO7_AGw0I5rmL6ockDuZTbi5QOBtuhV/view?usp=sharing)  |
-| Mengenal Kunci Dasar Gitar                                   | Iqbal   | [Klik Disini](https://drive.google.com/file/d/1A3UQemq5M-CwP3a6T-rDss8v_gTOVizr/view?usp=drivesdk) |
-| ?                                                            | Nida    | [Klik Disini](https://drive.google.com/file/d/1SU-m6-3cpZWPRo95xSGb4rTH4xnOOfEE/view?usp=drivesdk) |
-| Mengenal Waktu Daerah Indonesia                              | Salsa   | [Klik Disini](https://drive.google.com/file/d/1g2ojN4QzI2yqLyHmVz41qXHQOQntWDCo/view?usp=drivesdk) |
-| Belajar Simple Presents Tense                                | Kemas   | [Klik Disini](https://drive.google.com/file/d/1v1k_UYr3VDEe-YT0yZtrsp1PvAdwz42y/view?usp=drivesdk) |
-
-## Contoh Aplikasi
-
-| Judul                | Pembuat    | Bab          | Link                                                                                                                             |
-| -------------------- | ---------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| Turn On The Light    | Faruq      | Input Output | [Kode Lampu Mati](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_LampuMati)         |
-| Kompas               | ?          | Input Output | [Kode Kompas](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Challange_Kompas)                |
-| Mengenal Wali Songo  | Habibie Z. | Input Output | [Kode Walisongo](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Habibie_MengenalWaliSongo)   |
-| Traffic Light        | Hilman     | Input Output | [Kode Traffic Light](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/Hilman_TrafficLight)     |
-| Minesweeper          | Rengga     | Input Output | [Kode Minesweeper](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-1/RenggaNugroho_Minesweeper) |
-| Body Mass Index      | Dimasiqi   | Aritmatika   | [Kode BMI](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-2/BodyMassIndex)                      |
-| Kalkulator Fleksibel | Adiz       | Aritmatika   | [Kode Kalk Fleksibel](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-2/KalkulatorFleksibel)     |
-| Kalkulator Suhu      | Rengga     | Aritmatika   | [Kode Kalk Suhu](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-2/KalkulatorSuhu)               |
-| ....                 | ....       | ....         | [Kode ....](https://github.com/teknologi-pendidikan/matkul-pemrograman-visual/tree/main/BAB-2/....)                              |
