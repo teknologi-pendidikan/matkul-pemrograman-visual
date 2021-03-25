@@ -29,23 +29,20 @@ implementation
 {$R *.dfm}
 
 procedure TKalkulatorDawet.b1Click(Sender: TObject);
-var dawet,counter,dawetnext,a: Integer;
+var dawet,counter,dawetnext: Integer;
 begin
-dawet:=0;      // Reset Counter
-dawet:=StrtoInt(e1.Text);    // Jumlah dawet yg dibeli
-g1.rowcount:=15+StrtoInt(e1.Text);       // Buat bariis
+dawet:=StrtoInt(e1.Text);
+g1.rowcount:=15+StrtoInt(e1.Text);
 
-// Clear Grid --> :)
 g1.Cols[0].clear;
-g1.Cols[1].clear;  
+g1.Cols[1].clear;
 g1.Cols[2].clear;
 
-// Grid Title
 g1.cells[0,0]:='BELI';
 g1.cells[1,0]:='BAYAR';
 g1.cells[2,0]:='JUMLAH';
 
-for counter:=1 to dawet do      // Buat baris tiap pembelian dawet
+for counter:=1 to dawet do
 begin
 g1.cells[0,counter]:=InttoStr(counter);
 g1.cells[1,counter]:=InttoStr(counter*1000);
@@ -59,14 +56,6 @@ g1.cells[2, counter]:=InttoStr(dawetnext);
 end
 else
 g1.cells[2, counter]:=InttoStr(counter+ counter div 5);
-
-// HARD-CODED VALUE
-// g1.rowcount:=g1.RowCount+1;
-// a:=g1.rowcount;
-// g1.cells[0,a-1]:='';
-// g1.cells[1,a-1]:='';
-// g1.cells[2,a-1]:='';
 end;
 end;
-
 end.

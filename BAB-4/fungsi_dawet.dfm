@@ -1,6 +1,6 @@
 object KalkulatorDawet: TKalkulatorDawet
-  Left = 691
-  Top = 120
+  Left = 462
+  Top = 139
   Width = 570
   Height = 414
   Caption = 'KalkulatorDawet'
@@ -73,9 +73,9 @@ object KalkulatorDawet: TKalkulatorDawet
       99)
   end
   object b1: TButton
-    Left = 72
+    Left = 16
     Top = 168
-    Width = 153
+    Width = 209
     Height = 41
     Caption = 'HITUNG'
     Font.Charset = DEFAULT_CHARSET
