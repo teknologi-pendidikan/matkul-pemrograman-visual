@@ -1,6 +1,6 @@
 object KalkulatorDawet: TKalkulatorDawet
-  Left = 462
-  Top = 139
+  Left = 574
+  Top = 159
   Width = 570
   Height = 414
   Caption = 'KalkulatorDawet'
