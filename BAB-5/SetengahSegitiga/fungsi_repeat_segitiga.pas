@@ -14,9 +14,11 @@ type
     Llbl: TLabel;
     mmo: TMemo;
     btn2: TButton;
-    procedure btnClick(Sender: TObject);
+    btn3: TButton;
+    procedure segitiga(Sender: TObject);
+    procedure segitiga_terbalik(Sender: TObject);
+    procedure bilangan_pascal(Sender: TObject);
     procedure ClearAll(Sender: TObject);
-    procedure btn2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,31 +33,59 @@ implementation
 {$R *.dfm}
 
 
-procedure TForm1.btnClick(Sender: TObject);
-var tinggi,loop_tinggi,loop_panjang: integer;
-segitiga:string;
+procedure TForm1.segitiga(Sender: TObject); // Jika Button segitiga di klik, maka
+var tinggi,loop_tinggi,loop_panjang: integer; // Deklarasikan variable dalam tipe data integer
+segitiga:string; // deklarasikan variabel segitga dalam tipe data string
+
+// PRINTING SEGITIGA
 begin
-mmo.Clear;
-tinggi:=StrToInt(e1.Text);
-loop_tinggi:=1;
-loop_panjang:=1;
-segitiga:='';
+mmo.Clear; // Membersihkan isian memo
+tinggi:=StrToInt(e1.Text);  // Ambil nilai edit 1 menuju variabel 1
+loop_tinggi:=1; // Memberikan nilai pada variable loop_tinggi
+loop_panjang:=1; // Memberikan nilai pada variable loop_panjang
+segitiga:=''; // Memberikan isian kosong  pada variable segitiga
 
-// Printing Tinggi Segitiga (Obviosusly)
-while loop_tinggi < tinggi+1 do
+while loop_tinggi < tinggi+1 do  // Melakukan perulangan selama nilai loop_tinggi lebih kecil dari tinggi
 begin
 
-// Prints Panjang Segitiga
-Repeat
- segitiga:=segitiga+'  '+inttostr(loop_panjang);
- mmo.Lines.Add(segitiga);
- loop_panjang:=loop_panjang+1;
-Until loop_panjang = loop_panjang;
+Repeat // Melakukan aksi perulangan
+ segitiga:=segitiga+'  '+inttostr(loop_panjang); // Memasukkan kembali nilai variabel segtiga dengan operasi khusus
+ mmo.Lines.Add(segitiga); // Menambah baris pada memo dengan nilai variabel segotiga
+ loop_panjang:=loop_panjang+1; // Menambah nilai variable loop_panjang sebanyak 1
+Until loop_panjang = loop_panjang; // Perulanan berhenti ketika nilai variabel loop_panjang sama
 
-loop_tinggi:=loop_tinggi+1;
+loop_tinggi:=loop_tinggi+1; // Menambah nilai variable tinggi sebesar 1 
 end;
 end;
 
+// SEGITIGA TERBALIK
+procedure TForm1.segitiga_terbalik(Sender: TObject); // Jika Button segitiga di klik, maka
+var tinggi,loop_tinggi,loop_panjang: integer; // Deklarasikan variable dalam tipe data integer
+segitiga:string;  // deklarasikan variabel segitga dalam tipe data string
+begin
+
+mmo.Clear;    // Membersihkan isian memo
+tinggi:=StrToInt(e1.Text);  // Ambil nilai edit 1 menuju variabel 1
+loop_tinggi:=1; // Memberikan nilai pada variable loop_tinggi
+loop_panjang:=tinggi; // Memberikan nilai pada variable loop_panjang
+segitiga:=''; // Memberikan isian kosong  pada variable segitiga
+
+while loop_tinggi < tinggi+1 do   // Melakukan perulangan selama nilai loop_tinggi lebih kecil dari tinggi
+begin
+
+Repeat    // Melakukan aksi perulangan
+ loop_panjang:=loop_panjang-1;  // Mengurangi nilai variable loop_panjang sebesar 1 integer
+ segitiga:=segitiga+'  '+inttostr(loop_panjang);  // Memasukkan kembali nilai variabel segtiga dengan operasi khusus
+ mmo.Lines.Add(segitiga);   // Menambah baris pada memo dengan nilai variabel segotiga
+Until tinggi = tinggi;  // Perulanan berhenti ketika nilai variabel tinggi sama
+
+tinggi:=tinggi-1; // mengurangi nilai variable tinggi sebesar 1 
+end;
+end;
+
+procedure TForm1.bilangan_pascal(Sender: TObject);
+begin
+end;
 
 // Clear initial state
 procedure TForm1.ClearAll(Sender: TObject);
@@ -63,30 +93,4 @@ begin
 mmo.clear;
 e1.clear;
 end;
-
-procedure TForm1.btn2Click(Sender: TObject);
-var tinggi,loop_tinggi,loop_panjang: integer;
-segitiga:string;
-begin
-mmo.Clear;
-tinggi:=StrToInt(e1.Text);
-loop_tinggi:=1;
-loop_panjang:=tinggi;
-segitiga:='';
-
-// Printing Tinggi Segitiga (Obviosusly)
-while loop_tinggi < tinggi+1 do
-begin
-
-// Prints Panjang Segitiga
-Repeat
- loop_panjang:=loop_panjang-1;
- segitiga:=segitiga+'  '+inttostr(loop_panjang);
- mmo.Lines.Add(segitiga);
-Until loop_panjang = loop_panjang;
-
-tinggi:=tinggi-1;
-end;
-end;
-
 end.

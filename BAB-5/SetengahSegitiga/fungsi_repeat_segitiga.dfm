@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 346
-  Top = 175
+  Left = 480
+  Top = 198
   Width = 662
-  Height = 416
+  Height = 415
   Caption = 'Form1'
   Color = clFuchsia
   Font.Charset = DEFAULT_CHARSET
@@ -35,11 +35,13 @@ object Form1: TForm1
     Width = 85
     Height = 32
     Caption = 'TINGGI'
+    Color = clBackground
     Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clWhite
     Font.Height = -24
     Font.Name = 'IBM Plex Sans'
     Font.Style = [fsBold]
+    ParentColor = False
     ParentFont = False
   end
   object e1: TEdit
@@ -64,12 +66,12 @@ object Form1: TForm1
     Caption = 'BUAT SEGITIGA'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'IBM Plex Sans Medium'
+    Font.Height = -16
+    Font.Name = 'IBM Plex Sans'
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 1
-    OnClick = btnClick
+    OnClick = segitiga
   end
   object mmo: TMemo
     Left = 328
@@ -79,21 +81,45 @@ object Form1: TForm1
     Color = clYellow
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -19
-    Font.Name = 'IBM Plex Sans Medium'
+    Font.Height = -16
+    Font.Name = 'IBM Plex Sans'
     Font.Style = [fsBold]
     Lines.Strings = (
-      'mmo')
+      '')
     ParentFont = False
-    TabOrder = 2
+    ReadOnly = True
+    TabOrder = 3
   end
   object btn2: TButton
     Left = 16
     Top = 232
     Width = 297
     Height = 49
-    Caption = 'btn2'
-    TabOrder = 3
-    OnClick = btn2Click
+    Caption = 'BUAT SEGITIGA TERBALIK'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'IBM Plex Sans'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    Visible = False
+    OnClick = segitiga_terbalik
+  end
+  object btn3: TButton
+    Left = 16
+    Top = 296
+    Width = 297
+    Height = 49
+    Caption = 'BUAT BIL. PASCAL'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'IBM Plex Sans Medium'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    Visible = False
+    OnClick = bilangan_pascal
   end
 end
