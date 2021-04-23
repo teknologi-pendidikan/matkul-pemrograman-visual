@@ -1,6 +1,6 @@
 object pageMainmenu: TpageMainmenu
-  Left = 1405
-  Top = 9
+  Left = 121
+  Top = 27
   AutoScroll = False
   Caption = 'pageMainmenu'
   ClientHeight = 729

@@ -30,6 +30,7 @@ type
     procedure hidePenjelasan(Sender: TObject; Shift: TShiftState; X,
       Y: Integer);
     procedure img_buttonPenjelasanClick(Sender: TObject);
+    procedure img_buttonCarabacaClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -41,7 +42,7 @@ var
 
 implementation
 
-uses pagesMainmenu, pagesMateriPenjelasan;
+uses pagesMainmenu, pagesMateriPenjelasan, pagesMateriCarabaca;
 
 {$R *.dfm}
 
@@ -103,5 +104,10 @@ begin
   pageMateriPenjelasan.Show;
 end;
 
-end.
+procedure TpageMateri.img_buttonCarabacaClick(Sender: TObject);
+begin
+  pageMateri.Hide;
+  pageMateriCarabaca.Show;
+end;
 
+end.
