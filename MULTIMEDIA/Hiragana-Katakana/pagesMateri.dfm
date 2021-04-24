@@ -1,7 +1,8 @@
 object pageMateri: TpageMateri
-  Left = 373
-  Top = 113
-  AutoScroll = False
+  Left = 98
+  Top = 314
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = 'pageMateri'
   ClientHeight = 729
   ClientWidth = 1008
@@ -12,11 +13,12 @@ object pageMateri: TpageMateri
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnShow = ShowForm
   PixelsPerInch = 96
   TextHeight = 13
   object img_background: TImage
     Left = 0
-    Top = 0
+    Top = -8
     Width = 1024
     Height = 768
     Picture.Data = {

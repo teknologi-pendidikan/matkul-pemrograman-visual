@@ -14,6 +14,7 @@ type
     P_KeluarAplikasi: TPanel;
     procedure MasukMenu(Sender: TObject);
     procedure ExitApp(Sender: TObject);
+    procedure ShowForm(Sender: TObject);
   private
     { Private declarations }
   public
@@ -39,6 +40,12 @@ end;
 procedure TPageDisclaimer.ExitApp(Sender: TObject);
 begin
   Application.Terminate;
+end;
+
+procedure TPageDisclaimer.ShowForm(Sender: TObject);
+begin
+  PageDisclaimer.Top := 10;
+  PageDisclaimer.Left := 200;
 end;
 
 end.

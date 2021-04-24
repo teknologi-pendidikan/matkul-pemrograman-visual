@@ -13,13 +13,15 @@ type
     L_titleMateri: TLabel;
     L_pagesLocation: TLabel;
     L_PendingPlay: TLabel;
-    wmp_carabaca: TWindowsMediaPlayer;
     mp_CaraBaca: TMediaPlayer;
     mmo_carabaca: TMemo;
     img_symbolSpeaking: TImage;
+    wmp_carabaca: TWindowsMediaPlayer;
+    btn_videoForcePlay: TButton;
     procedure img_buttonKembaliClick(Sender: TObject);
     procedure initialState(Sender: TObject);
     procedure StartVideo(Sender: TObject);
+    procedure btn_videoForcePlayClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -45,6 +47,8 @@ end;
 
 procedure TpageMateriCarabaca.initialState(Sender: TObject);
 begin
+  pageMateriCarabaca.Top := 10;
+  pageMateriCarabaca.Left := 200;
   mmo_carabaca.Show;
   wmp_carabaca.Hide;
   wmp_carabaca.controls.stop;
@@ -67,6 +71,14 @@ begin
     // Set Notify, important
     mp_CaraBaca.Notify := True;
   end;
+end;
+
+procedure TpageMateriCarabaca.btn_videoForcePlayClick(Sender: TObject);
+begin
+  mmo_carabaca.Hide;
+  mp_CaraBaca.Stop;
+  wmp_carabaca.Show;
+  wmp_carabaca.controls.play;
 end;
 
 end.

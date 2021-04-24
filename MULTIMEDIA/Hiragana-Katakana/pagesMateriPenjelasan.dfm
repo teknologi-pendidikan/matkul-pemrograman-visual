@@ -1,7 +1,8 @@
 object pageMateriPenjelasan: TpageMateriPenjelasan
-  Left = 493
-  Top = 179
-  AutoScroll = False
+  Left = 186
+  Top = 253
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = 'pageMateriPenjelasan'
   ClientHeight = 729
   ClientWidth = 1008
@@ -14,6 +15,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
   OldCreateOrder = False
   OnCreate = InitialState
   OnHide = ResetAll
+  OnShow = ShowForm
   PixelsPerInch = 96
   TextHeight = 13
   object img_background: TImage
@@ -8404,6 +8406,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     Top = 664
     Width = 85
     Height = 30
+    Enabled = False
     EnabledButtons = [btPlay, btPause, btStop]
     VisibleButtons = [btPlay, btPause, btStop]
     AutoEnable = False

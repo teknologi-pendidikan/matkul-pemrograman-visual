@@ -15,6 +15,8 @@ type
     L_PageStatus: TLabel;
     procedure Exit(Sender: TObject);
     procedure img_buttonMateriClick(Sender: TObject);
+    procedure ShowForm(Sender: TObject);
+    procedure img_buttonKuisClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,7 +28,7 @@ var
 
 implementation
 
-uses pagesMateri;
+uses pagesMateri, pagesKuis;
 
 {$R *.dfm}
 
@@ -41,4 +43,17 @@ begin
   pageMateri.show;
 end;
 
+procedure TpageMainmenu.ShowForm(Sender: TObject);
+begin
+  pageMainmenu.Top := 10;
+  pageMainmenu.Left := 200;
+end;
+
+procedure TpageMainmenu.img_buttonKuisClick(Sender: TObject);
+begin
+  pageMainmenu.Hide;
+  pageKuis.Show;
+end;
+
 end.
+

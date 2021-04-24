@@ -31,6 +31,7 @@ type
       Y: Integer);
     procedure img_buttonPenjelasanClick(Sender: TObject);
     procedure img_buttonCarabacaClick(Sender: TObject);
+    procedure ShowForm(Sender: TObject);
   private
     { Private declarations }
   public
@@ -110,4 +111,11 @@ begin
   pageMateriCarabaca.Show;
 end;
 
+procedure TpageMateri.ShowForm(Sender: TObject);
+begin
+  pageMateri.Top := 10;
+  pageMateri.Left := 200;
+end;
+
 end.
+

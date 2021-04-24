@@ -1,7 +1,8 @@
 object pageMainmenu: TpageMainmenu
-  Left = 121
-  Top = 27
-  AutoScroll = False
+  Left = 107
+  Top = 26
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = 'pageMainmenu'
   ClientHeight = 729
   ClientWidth = 1008
@@ -12,6 +13,7 @@ object pageMainmenu: TpageMainmenu
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnShow = ShowForm
   PixelsPerInch = 96
   TextHeight = 13
   object img_background: TImage
@@ -7841,6 +7843,7 @@ object pageMainmenu: TpageMainmenu
       EE9F353A399E3B154E12BA4F9A314EE93BDD1EDF6D6D15AC7E5C40E339663CB3
       9F563C7E000007615EB1F180FFD9}
     Transparent = True
+    OnClick = img_buttonKuisClick
   end
   object img_buttonExit: TImage
     Left = 40

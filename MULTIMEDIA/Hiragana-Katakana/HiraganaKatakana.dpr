@@ -6,7 +6,8 @@ uses
   pagesMainmenu in 'pagesMainmenu.pas' {pageMainmenu},
   pagesMateri in 'pagesMateri.pas' {pageMateri},
   pagesMateriPenjelasan in 'pagesMateriPenjelasan.pas' {pageMateriPenjelasan},
-  pagesMateriCarabaca in 'pagesMateriCarabaca.pas' {pageMateriCarabaca};
+  pagesMateriCarabaca in 'pagesMateriCarabaca.pas' {pageMateriCarabaca},
+  pagesKuis in 'pagesKuis.pas' {pageKuis};
 
 {$R *.res}
 
@@ -18,6 +19,7 @@ begin
   Application.CreateForm(TpageMateri, pageMateri);
   Application.CreateForm(TpageMateriPenjelasan, pageMateriPenjelasan);
   Application.CreateForm(TpageMateriCarabaca, pageMateriCarabaca);
+  Application.CreateForm(TpageKuis, pageKuis);
   Application.Run;
 end.
 

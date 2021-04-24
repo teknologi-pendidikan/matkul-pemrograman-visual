@@ -1,7 +1,8 @@
 object pageMateriCarabaca: TpageMateriCarabaca
-  Left = 224
-  Top = 13
-  AutoScroll = False
+  Left = 84
+  Top = 117
+  BorderIcons = [biMinimize, biMaximize]
+  BorderStyle = bsSingle
   Caption = 'pageMateriCarabaca'
   ClientHeight = 729
   ClientWidth = 1008
@@ -2441,22 +2442,6 @@ object pageMateriCarabaca: TpageMateriCarabaca
       5001400500140050014005001400500140050014005001400500140050014005
       001400500140050014005000FFD9}
   end
-  object wmp_carabaca: TWindowsMediaPlayer
-    Left = 32
-    Top = 192
-    Width = 640
-    Height = 360
-    TabOrder = 0
-    ControlData = {
-      000300000800400000006100730073006500740073005C007600690064006500
-      6F005C0076006900640065006F002D0063006100720061006200610063006100
-      2E006D007000340000000500000000000000F03F030000000000050000000000
-      0000000008000200000000000300010000000B00FFFF0300000000000B00FFFF
-      08000200000000000300320000000B00000008000A000000660075006C006C00
-      00000B0000000B0000000B00FFFF0B00FFFF0B00000008000200000000000800
-      020000000000080002000000000008000200000000000B000000254200003525
-      0000}
-  end
   object mp_CaraBaca: TMediaPlayer
     Left = 736
     Top = 672
@@ -2475,7 +2460,7 @@ object pageMateriCarabaca: TpageMateriCarabaca
   end
   object mmo_carabaca: TMemo
     Left = 32
-    Top = 192
+    Top = 200
     Width = 641
     Height = 361
     TabStop = False
@@ -2493,7 +2478,38 @@ object pageMateriCarabaca: TpageMateriCarabaca
       'konsonan tertentu. Bunyi dalam bahasa Jepang terdiri dari '
       'kombinasi vokal dan konsonan.')
     ParentFont = False
-    TabOrder = 2
+    TabOrder = 0
     WantReturns = False
+  end
+  object wmp_carabaca: TWindowsMediaPlayer
+    Left = 32
+    Top = 200
+    Width = 640
+    Height = 360
+    TabOrder = 2
+    ControlData = {
+      000300000800400000006100730073006500740073002F007600690064006500
+      6F002F0076006900640065006F002D0063006100720061006200610063006100
+      2E006D007000340000000500000000000000F03F030000000000050000000000
+      0000000008000200000000000300010000000B00FFFF0300000000000B00FFFF
+      08000200000000000300320000000B00000008000A000000660075006C006C00
+      00000B0000000B0000000B00FFFF0B00FFFF0B00000008000200000000000800
+      020000000000080002000000000008000200000000000B000000254200003525
+      0000}
+  end
+  object btn_videoForcePlay: TButton
+    Left = 32
+    Top = 576
+    Width = 169
+    Height = 33
+    Caption = 'Putar Video Sekarang'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btn_videoForcePlayClick
   end
 end

@@ -30,6 +30,7 @@ type
     procedure ResetAll(Sender: TObject);
     procedure InitialState(Sender: TObject);
     procedure button_stopaudioClick(Sender: TObject);
+    procedure ShowForm(Sender: TObject);
   private
     { Private declarations }
   public
@@ -123,6 +124,12 @@ end;
 procedure TpageMateriPenjelasan.button_stopaudioClick(Sender: TObject);
 begin
   mp_track.Stop;
+end;
+
+procedure TpageMateriPenjelasan.ShowForm(Sender: TObject);
+begin
+  pageMateriPenjelasan.Top := 10;
+  pageMateriPenjelasan.Left := 200;
 end;
 
 end.

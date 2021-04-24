@@ -1,17 +1,20 @@
 object PageDisclaimer: TPageDisclaimer
-  Left = 185
-  Top = 97
-  AutoScroll = False
+  Left = 302
+  Top = 139
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = 'PageDisclaimer'
   ClientHeight = 728
   ClientWidth = 1008
   Color = clBtnFace
+  DragMode = dmAutomatic
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnShow = ShowForm
   PixelsPerInch = 96
   TextHeight = 13
   object img1: TImage
