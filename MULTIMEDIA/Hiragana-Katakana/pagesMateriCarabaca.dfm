@@ -1,6 +1,6 @@
 object pageMateriCarabaca: TpageMateriCarabaca
-  Left = 84
-  Top = 117
+  Left = 35
+  Top = 22
   BorderIcons = [biMinimize, biMaximize]
   BorderStyle = bsSingle
   Caption = 'pageMateriCarabaca'
@@ -1142,6 +1142,7 @@ object pageMateriCarabaca: TpageMateriCarabaca
     Top = 664
     Width = 169
     Height = 50
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765ED300000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -2502,6 +2503,7 @@ object pageMateriCarabaca: TpageMateriCarabaca
     Top = 576
     Width = 169
     Height = 33
+    Cursor = crHandPoint
     Caption = 'Putar Video Sekarang'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText

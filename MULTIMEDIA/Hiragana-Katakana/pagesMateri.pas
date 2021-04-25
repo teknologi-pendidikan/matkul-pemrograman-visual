@@ -32,6 +32,7 @@ type
     procedure img_buttonPenjelasanClick(Sender: TObject);
     procedure img_buttonCarabacaClick(Sender: TObject);
     procedure ShowForm(Sender: TObject);
+    procedure img_buttonCaramenulisClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -43,7 +44,8 @@ var
 
 implementation
 
-uses pagesMainmenu, pagesMateriPenjelasan, pagesMateriCarabaca;
+uses pagesMainmenu, pagesMateriPenjelasan, pagesMateriCarabaca,
+  pagesMateriCaramenulis;
 
 {$R *.dfm}
 
@@ -117,5 +119,10 @@ begin
   pageMateri.Left := 200;
 end;
 
-end.
+procedure TpageMateri.img_buttonCaramenulisClick(Sender: TObject);
+begin
+  pageMateri.Hide;
+  pageMateriCaramenulis.Show;
+end;
 
+end.

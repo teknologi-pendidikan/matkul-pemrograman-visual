@@ -1,6 +1,6 @@
 object pageMateri: TpageMateri
-  Left = 98
-  Top = 314
+  Left = 679
+  Top = 18
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'pageMateri'
@@ -3987,6 +3987,7 @@ object pageMateri: TpageMateri
     Top = 176
     Width = 262
     Height = 85
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765AE400000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -4515,6 +4516,7 @@ object pageMateri: TpageMateri
     Top = 280
     Width = 262
     Height = 85
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D61676509400000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -5038,6 +5040,7 @@ object pageMateri: TpageMateri
     Top = 384
     Width = 262
     Height = 85
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765344A0000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -5635,6 +5638,7 @@ object pageMateri: TpageMateri
       93E68C53BA4EF747B7DB5B456B1F971038CE598F2CE7D58F1F800001D857AC7C
       60FFD9}
     Transparent = True
+    OnClick = img_buttonCaramenulisClick
     OnMouseMove = RevealMenulis
   end
   object img_buttonDaftarhuruf: TImage
@@ -5642,6 +5646,7 @@ object pageMateri: TpageMateri
     Top = 488
     Width = 262
     Height = 85
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765F7480000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -6236,6 +6241,7 @@ object pageMateri: TpageMateri
     Top = 608
     Width = 203
     Height = 44
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765AA350000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101

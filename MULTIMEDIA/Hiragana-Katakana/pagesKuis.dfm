@@ -1,6 +1,6 @@
 object pageKuis: TpageKuis
-  Left = 1662
-  Top = 40
+  Left = 221
+  Top = 194
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'pageKuis'
@@ -1154,9 +1154,9 @@ object pageKuis: TpageKuis
   object L_titleMateri: TLabel
     Left = 32
     Top = 64
-    Width = 649
+    Width = 699
     Height = 55
-    Caption = 'Contoh Pelafalan Huruf Jepang'
+    Caption = 'Kuis Huruf Jepang Tingkat Dasar'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -48

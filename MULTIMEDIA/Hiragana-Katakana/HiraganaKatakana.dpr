@@ -7,7 +7,9 @@ uses
   pagesMateri in 'pagesMateri.pas' {pageMateri},
   pagesMateriPenjelasan in 'pagesMateriPenjelasan.pas' {pageMateriPenjelasan},
   pagesMateriCarabaca in 'pagesMateriCarabaca.pas' {pageMateriCarabaca},
-  pagesKuis in 'pagesKuis.pas' {pageKuis};
+  pagesKuis in 'pagesKuis.pas' {pageKuis},
+  pagesMateriCaramenulis in 'pagesMateriCaramenulis.pas'
+  {pageMateriCaramenulis};
 
 {$R *.res}
 
@@ -20,6 +22,7 @@ begin
   Application.CreateForm(TpageMateriPenjelasan, pageMateriPenjelasan);
   Application.CreateForm(TpageMateriCarabaca, pageMateriCarabaca);
   Application.CreateForm(TpageKuis, pageKuis);
+  Application.CreateForm(TpageMateriCaramenulis, pageMateriCaramenulis);
   Application.Run;
 end.
 

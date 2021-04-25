@@ -1,6 +1,6 @@
 object pageMateriPenjelasan: TpageMateriPenjelasan
-  Left = 186
-  Top = 253
+  Left = 220
+  Top = 29
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'pageMateriPenjelasan'
@@ -1171,6 +1171,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     Top = 664
     Width = 169
     Height = 50
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765ED300000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -2539,6 +2540,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     Top = 160
     Width = 198
     Height = 50
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765C33B0000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -3026,6 +3028,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     Top = 160
     Width = 198
     Height = 50
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765EB390000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -3498,6 +3501,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     Top = 160
     Width = 198
     Height = 50
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765DE380000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -8500,6 +8504,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     Top = 672
     Width = 121
     Height = 33
+    Cursor = crHandPoint
     Caption = 'STOP AUDIO'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText

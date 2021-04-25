@@ -13,10 +13,22 @@ type
     img_buttonKuis: TImage;
     img_buttonExit: TImage;
     L_PageStatus: TLabel;
+    L_hintPenjelasan: TLabel;
+    L_hintKuis: TLabel;
+    L_hintKD: TLabel;
+    L_hintKeluarApp: TLabel;
     procedure Exit(Sender: TObject);
     procedure img_buttonMateriClick(Sender: TObject);
     procedure ShowForm(Sender: TObject);
     procedure img_buttonKuisClick(Sender: TObject);
+    procedure HideHintPenjelasan(Sender: TObject; Shift: TShiftState; X,
+      Y: Integer);
+    procedure ShowHintMateri(Sender: TObject; Shift: TShiftState; X,
+      Y: Integer);
+    procedure ShowHintKuis(Sender: TObject; Shift: TShiftState; X,
+      Y: Integer);
+    procedure ShowHintKeluar(Sender: TObject; Shift: TShiftState; X,
+      Y: Integer);
   private
     { Private declarations }
   public
@@ -47,6 +59,10 @@ procedure TpageMainmenu.ShowForm(Sender: TObject);
 begin
   pageMainmenu.Top := 10;
   pageMainmenu.Left := 200;
+  L_hintPenjelasan.Hide;
+  L_hintKuis.Hide;
+  L_hintKD.Hide;
+  L_hintKeluarApp.Hide;
 end;
 
 procedure TpageMainmenu.img_buttonKuisClick(Sender: TObject);
@@ -55,5 +71,31 @@ begin
   pageKuis.Show;
 end;
 
-end.
+procedure TpageMainmenu.HideHintPenjelasan(Sender: TObject;
+  Shift: TShiftState; X, Y: Integer);
+begin
+  L_hintPenjelasan.Hide;
+  L_hintKuis.Hide;
+  L_hintKD.Hide;
+  L_hintKeluarApp.Hide;
+end;
 
+procedure TpageMainmenu.ShowHintMateri(Sender: TObject; Shift: TShiftState;
+  X, Y: Integer);
+begin
+  L_hintPenjelasan.Show;
+end;
+
+procedure TpageMainmenu.ShowHintKuis(Sender: TObject; Shift: TShiftState;
+  X, Y: Integer);
+begin
+  L_hintKuis.Show;
+end;
+
+procedure TpageMainmenu.ShowHintKeluar(Sender: TObject; Shift: TShiftState;
+  X, Y: Integer);
+begin
+  L_hintKeluarApp.Show;
+end;
+
+end.

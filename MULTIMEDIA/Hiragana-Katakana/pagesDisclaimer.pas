@@ -30,7 +30,6 @@ uses pagesMainmenu;
 
 {$R *.dfm}
 
-
 procedure TPageDisclaimer.MasukMenu(Sender: TObject);
 begin
   PageDisclaimer.Hide;

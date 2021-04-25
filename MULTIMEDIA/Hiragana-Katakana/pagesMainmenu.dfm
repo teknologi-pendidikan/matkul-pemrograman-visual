@@ -1,6 +1,6 @@
 object pageMainmenu: TpageMainmenu
-  Left = 107
-  Top = 26
+  Left = 1488
+  Top = 0
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'pageMainmenu'
@@ -6555,12 +6555,14 @@ object pageMainmenu: TpageMainmenu
       27ED21F0F353D89A8B6ABA04C70ADF6FB13736DBCE07C971A63DE394E79926B7
       B70392C028DC403D7746F16F85FC44AA743F10691AA330CF95677F6F2DC2F01B
       125A893ED11300412B2C48C01E40A000FFD9}
+    OnMouseMove = HideHintPenjelasan
   end
   object img_buttonMateri: TImage
     Left = 40
     Top = 224
     Width = 262
     Height = 85
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765F4530000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -7237,12 +7239,14 @@ object pageMainmenu: TpageMainmenu
       00FFD9}
     Transparent = True
     OnClick = img_buttonMateriClick
+    OnMouseMove = ShowHintMateri
   end
   object img_buttonKuis: TImage
     Left = 40
     Top = 328
     Width = 262
     Height = 85
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D6167659F4A0000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -7844,12 +7848,14 @@ object pageMainmenu: TpageMainmenu
       9F563C7E000007615EB1F180FFD9}
     Transparent = True
     OnClick = img_buttonKuisClick
+    OnMouseMove = ShowHintKuis
   end
   object img_buttonExit: TImage
     Left = 40
     Top = 608
     Width = 183
     Height = 64
+    Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D61676506390000FFD8FFE000104A46494600010201004800
       480000FFDB004300010101010101010101010101010101010101010101010101
@@ -8310,6 +8316,7 @@ object pageMainmenu: TpageMainmenu
       FDA7F6D617EADEC3EB3CFECF11ED7D8F253F6AFFD9}
     Transparent = True
     OnClick = Exit
+    OnMouseMove = ShowHintKeluar
   end
   object L_PageStatus: TLabel
     Left = 48
@@ -8324,5 +8331,65 @@ object pageMainmenu: TpageMainmenu
     Font.Style = []
     ParentFont = False
     Transparent = True
+  end
+  object L_hintPenjelasan: TLabel
+    Left = 48
+    Top = 496
+    Width = 166
+    Height = 38
+    Caption = 'Buka Halaman '#13#10'Materi Huruf Jepang'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+    Visible = False
+  end
+  object L_hintKuis: TLabel
+    Left = 48
+    Top = 496
+    Width = 147
+    Height = 38
+    Caption = 'Buka Halaman '#13#10'Kuis Huruf Jepang'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+    Visible = False
+  end
+  object L_hintKD: TLabel
+    Left = 48
+    Top = 496
+    Width = 148
+    Height = 57
+    Caption = 'Buka Halaman '#13#10'Kompetensi Dasar'#13#10'Huruf Jepang'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+    Visible = False
+  end
+  object L_hintKeluarApp: TLabel
+    Left = 48
+    Top = 496
+    Width = 123
+    Height = 19
+    Caption = 'Keluar Aplikasi'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+    Visible = False
   end
 end

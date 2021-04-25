@@ -28,8 +28,8 @@ implementation
 
 procedure TpageKuis.ShowForm(Sender: TObject);
 begin
-pageKuis.Top := 10;
-pageKuis.Left := 200;
+  pageKuis.Top := 10;
+  pageKuis.Left := 200;
 end;
 
 end.

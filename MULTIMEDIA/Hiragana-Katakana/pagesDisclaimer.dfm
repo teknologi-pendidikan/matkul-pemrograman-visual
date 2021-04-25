@@ -1,6 +1,6 @@
 object PageDisclaimer: TPageDisclaimer
-  Left = 302
-  Top = 139
+  Left = 1565
+  Top = 5
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'PageDisclaimer'
