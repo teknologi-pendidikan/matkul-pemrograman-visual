@@ -1,0 +1,11 @@
+*Skema Kuis Delphi*
+1/ Text - Image - Show Message
+2/ Audio - Text - Images
+3/ Images - Audio - Text
+4/ Text - Audio - Images
+5/ Video - Text - Audio
+6/ Images - Input Text - Show Message
+7/ Video - Image - Show Message
+8/ Audio - Input Text - Show Message
+9/ Images - Text - Audio
+10/ Animasi - Images - Text

@@ -1,8 +1,8 @@
 object PageDisclaimer: TPageDisclaimer
-  Left = 1565
-  Top = 5
-  BorderIcons = [biSystemMenu, biMinimize]
-  BorderStyle = bsSingle
+  Left = 204
+  Top = 36
+  BorderIcons = []
+  BorderStyle = bsNone
   Caption = 'PageDisclaimer'
   ClientHeight = 728
   ClientWidth = 1008
@@ -14,7 +14,7 @@ object PageDisclaimer: TPageDisclaimer
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  OnShow = ShowForm
+  WindowState = wsMaximized
   PixelsPerInch = 96
   TextHeight = 13
   object img1: TImage

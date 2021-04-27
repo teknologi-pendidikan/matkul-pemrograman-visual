@@ -13,6 +13,7 @@ object pageMainmenu: TpageMainmenu
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  WindowState = wsMaximized
   OnShow = ShowForm
   PixelsPerInch = 96
   TextHeight = 13
