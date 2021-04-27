@@ -1,6 +1,6 @@
 object pageMateri: TpageMateri
-  Left = 0
-  Top = 0
+  Left = 3
+  Top = 126
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMateri'

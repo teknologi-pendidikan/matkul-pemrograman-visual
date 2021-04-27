@@ -47,7 +47,7 @@ end;
 
 procedure TpageMateriCarabaca.initialState(Sender: TObject);
 begin
- L_PendingPlay.Show;
+  L_PendingPlay.Show;
   mmo_carabaca.Show;
   wmp_carabaca.Hide;
   wmp_carabaca.controls.stop;
@@ -63,7 +63,7 @@ procedure TpageMateriCarabaca.StartVideo(Sender: TObject);
 begin
   if mp_CaraBaca.Position >= mp_CaraBaca.EndPos then
   begin
-   L_PendingPlay.Hide;
+    L_PendingPlay.Hide;
     mmo_carabaca.Hide;
     mp_CaraBaca.Stop;
     wmp_carabaca.Show;
@@ -81,6 +81,5 @@ begin
   wmp_carabaca.controls.play;
 end;
 
-
-
 end.
+

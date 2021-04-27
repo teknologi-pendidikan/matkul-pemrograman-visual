@@ -1,6 +1,6 @@
 object pageMateriCaramenulis: TpageMateriCaramenulis
-  Left = -7
-  Top = 24
+  Left = 30
+  Top = 129
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'pageMateriCaramenulis'
@@ -4773,11 +4773,19 @@ object pageMateriCaramenulis: TpageMateriCaramenulis
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 1
+    object shp_LineStroke2: TShape
+      Left = 24
+      Top = 208
+      Width = 30
+      Height = 30
+      Visible = False
+    end
     object shp_LineStroke1: TShape
       Left = 72
       Top = 72
       Width = 30
       Height = 30
+      Visible = False
     end
     object shp_stroke1: TShape
       Left = 72
@@ -4785,6 +4793,7 @@ object pageMateriCaramenulis: TpageMateriCaramenulis
       Width = 30
       Height = 30
       Brush.Color = clRed
+      Visible = False
     end
     object shp_stroke2: TShape
       Left = 24

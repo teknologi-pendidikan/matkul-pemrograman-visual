@@ -57,8 +57,6 @@ end;
 
 procedure TpageMainmenu.ShowForm(Sender: TObject);
 begin
-  pageMainmenu.Top := 10;
-  pageMainmenu.Left := 200;
   L_hintPenjelasan.Hide;
   L_hintKuis.Hide;
   L_hintKD.Hide;
@@ -99,3 +97,4 @@ begin
 end;
 
 end.
+

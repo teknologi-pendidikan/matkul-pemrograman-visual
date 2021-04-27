@@ -31,6 +31,7 @@ type
     shp_LineStroke1: TShape;
     tmr_stroke1: TTimer;
     shp_stroke2: TShape;
+    shp_LineStroke2: TShape;
     procedure img_buttonKembaliClick(Sender: TObject);
     procedure img_buttonPenjelasanHiraganaClick(Sender: TObject);
     procedure initialState(Sender: TObject);
@@ -95,19 +96,22 @@ end;
 
 procedure TpageMateriCaramenulis.tmr_stroke1Timer(Sender: TObject);
 begin
-  if shp_stroke1.Left<344 then
+  if shp_stroke1.Left < 344 then
   begin
-     shp_stroke1.Left := shp_stroke1.Left + 1;
-     shp_LineStroke1.Width := shp_LineStroke1.width+1;
+    shp_stroke1.Show;
+    shp_LineStroke1.Show;
+    shp_stroke1.Left := shp_stroke1.Left + 1;
+    shp_LineStroke1.Width := shp_LineStroke1.width + 1;
   end;
 
-  if (shp_stroke1.Left = 344) and (shp_stroke2.Left<350) then
+  if (shp_stroke1.Left = 344) and (shp_stroke2.Left < 390) then
   begin
-   shp_stroke1.Hide;
-   shp_stroke2.Show;
-   shp_stroke2.Left:=shp_stroke2.Left+1;
+    shp_stroke1.Hide;
+    shp_stroke2.Show;
+    shp_LineStroke2.Show;
+    shp_stroke2.Left := shp_stroke2.Left + 1;
+    shp_LineStroke2.Width := shp_LineStroke2.width + 1;
   end;
-
 
 end;
 
