@@ -40,7 +40,7 @@ var
 
 implementation
 
-uses pagesMateri, pagesKuis;
+uses pagesMateri, pagesKuis_1;
 
 {$R *.dfm}
 
@@ -66,7 +66,7 @@ end;
 procedure TpageMainmenu.img_buttonKuisClick(Sender: TObject);
 begin
   pageMainmenu.Hide;
-  pageKuis.Show;
+  pageKuis_1.Show;
 end;
 
 procedure TpageMainmenu.HideHintPenjelasan(Sender: TObject;
@@ -97,3 +97,4 @@ begin
 end;
 
 end.
+

@@ -1,6 +1,6 @@
 object pageMainmenu: TpageMainmenu
-  Left = -317
-  Top = 216
+  Left = -206
+  Top = 346
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMainmenu'

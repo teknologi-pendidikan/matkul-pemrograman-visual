@@ -1,6 +1,6 @@
 object pageMateriPenjelasan: TpageMateriPenjelasan
-  Left = 351
-  Top = 1
+  Left = 51
+  Top = 261
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMateriPenjelasan'
