@@ -39,6 +39,5 @@ procedure TPageDisclaimer.ExitApp(Sender: TObject);
 begin
   Application.Terminate;
 end;
-
 end.
 

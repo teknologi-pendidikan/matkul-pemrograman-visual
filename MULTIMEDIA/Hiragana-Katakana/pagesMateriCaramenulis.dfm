@@ -1,6 +1,6 @@
 object pageMateriCaramenulis: TpageMateriCaramenulis
-  Left = 30
-  Top = 129
+  Left = -140
+  Top = 82
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'pageMateriCaramenulis'
@@ -3299,8 +3299,8 @@ object pageMateriCaramenulis: TpageMateriCaramenulis
     OnClick = img_buttonStrokeClick
   end
   object grp_AnimasiHiragana: TGroupBox
-    Left = 1136
-    Top = 40
+    Left = 40
+    Top = 208
     Width = 1273
     Height = 401
     Caption = 'Animasi Penulisan Hiragana'
@@ -4773,6 +4773,7 @@ object pageMateriCaramenulis: TpageMateriCaramenulis
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 1
+    Visible = False
     object shp_LineStroke2: TShape
       Left = 24
       Top = 208
@@ -4798,6 +4799,21 @@ object pageMateriCaramenulis: TpageMateriCaramenulis
     object shp_stroke2: TShape
       Left = 24
       Top = 208
+      Width = 30
+      Height = 30
+      Brush.Color = clRed
+      Visible = False
+    end
+    object shp_LineStroke3: TShape
+      Left = 208
+      Top = 72
+      Width = 30
+      Height = 30
+      Visible = False
+    end
+    object shp_stroke3: TShape
+      Left = 208
+      Top = 72
       Width = 30
       Height = 30
       Brush.Color = clRed

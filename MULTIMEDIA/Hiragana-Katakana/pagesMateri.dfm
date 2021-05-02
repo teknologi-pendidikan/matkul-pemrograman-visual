@@ -1,6 +1,6 @@
 object pageMateri: TpageMateri
-  Left = 3
-  Top = 126
+  Left = 270
+  Top = 42
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMateri'
@@ -6985,12 +6985,12 @@ object pageMateri: TpageMateri
     Left = 416
     Top = 304
     Width = 364
-    Height = 175
+    Height = 200
     Caption = 
-      'Akan ditampilkan tabel daftar huruf'#13#10'Hiragana dan Katakana. '#13#10#13#10 +
-      'Huruf huruf tersebut akan diurutkan'#13#10'sesuai dengan aturan yang t' +
-      'elah'#13#10'banyak digunakan oleh Modul Bahasa'#13#10'Jepang di SMA Jurusan ' +
-      'Sastra Jepang.'
+      '[ DALAM PENGEMBANGAN ]'#13#10'Akan ditampilkan tabel daftar huruf'#13#10'Hir' +
+      'agana dan Katakana. '#13#10#13#10'Huruf huruf tersebut akan diurutkan'#13#10'ses' +
+      'uai dengan aturan yang telah'#13#10'banyak digunakan oleh Modul Bahasa' +
+      #13#10'Jepang di SMA Jurusan Sastra Jepang.'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -21

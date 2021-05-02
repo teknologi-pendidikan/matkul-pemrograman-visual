@@ -79,6 +79,7 @@ begin
   mp_CaraBaca.Stop;
   wmp_carabaca.Show;
   wmp_carabaca.controls.play;
+  btn_videoForcePlay.Hide;
 end;
 
 end.

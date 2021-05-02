@@ -1,6 +1,6 @@
 object pageMateriPenjelasan: TpageMateriPenjelasan
-  Left = 0
-  Top = 0
+  Left = 351
+  Top = 1
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMateriPenjelasan'
@@ -8773,8 +8773,8 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     WantReturns = False
   end
   object mp_track: TMediaPlayer
-    Left = 888
-    Top = 664
+    Left = 1264
+    Top = 680
     Width = 85
     Height = 30
     Enabled = False
@@ -8782,6 +8782,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     VisibleButtons = [btPlay, btPause, btStop]
     AutoEnable = False
     AutoRewind = False
+    Visible = False
     TabOrder = 1
   end
   object mmo_Hiragana: TMemo
