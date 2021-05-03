@@ -12,8 +12,10 @@ type
     L_disclaimer: TLabel;
     P_MasukMenu: TPanel;
     P_KeluarAplikasi: TPanel;
+    L_devconsole: TLabel;
     procedure MasukMenu(Sender: TObject);
     procedure ExitApp(Sender: TObject);
+    procedure L_devconsoleClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,7 +27,7 @@ var
 
 implementation
 
-uses pagesMainmenu;
+uses pagesMainmenu, pagesDevConsole;
 
 {$R *.dfm}
 
@@ -39,4 +41,11 @@ procedure TPageDisclaimer.ExitApp(Sender: TObject);
 begin
   Application.Terminate;
 end;
+
+procedure TPageDisclaimer.L_devconsoleClick(Sender: TObject);
+begin
+  pageDevConsole.Show;
+end;
+
 end.
+

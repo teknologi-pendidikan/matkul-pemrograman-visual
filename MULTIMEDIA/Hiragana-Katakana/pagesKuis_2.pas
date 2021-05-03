@@ -41,48 +41,48 @@ uses pagesKuis_3;
 
 {$R *.dfm}
 
-
 procedure TpageKuis_2.b_playAudioClick(Sender: TObject);
 begin
-mp_track.FileName:='assets\audio\bunyidasar.mp3';
-mp_track.Open;
-mp_track.Play;
-P_a1.Show;
-P_a2.Show;
-P_a3.Show;
+  mp_track.FileName := 'assets\audio\bunyidasar.mp3';
+  mp_track.Open;
+  mp_track.Play;
+  P_a1.Show;
+  P_a2.Show;
+  P_a3.Show;
 end;
 
 procedure TpageKuis_2.b_nextQuestClick(Sender: TObject);
 begin
-pageKuis_2.Hide;
-pageKuis_3.Show;
+  pageKuis_2.Hide;
+  pageKuis_3.Show;
 end;
 
 procedure TpageKuis_2.P_a1Click(Sender: TObject);
 begin
-img_benar.show;
-b_nextQuest.Show;
-mp_track.Stop;
-P_a2.Hide;
-P_a3.Hide;
+  img_benar.show;
+  b_nextQuest.Show;
+  mp_track.Stop;
+  P_a2.Hide;
+  P_a3.Hide;
 end;
 
 procedure TpageKuis_2.P_a2Click(Sender: TObject);
 begin
-img_wrong.show;
-b_nextQuest.Show;
-mp_track.Stop;
-P_a1.Hide;
-P_a3.Hide;
+  img_wrong.show;
+  b_nextQuest.Show;
+  mp_track.Stop;
+  P_a1.Hide;
+  P_a3.Hide;
 end;
 
 procedure TpageKuis_2.P_a3Click(Sender: TObject);
 begin
-img_wrong.show;
-b_nextQuest.Show;
-mp_track.Stop;
-P_a1.Hide;
-P_a2.Hide;
+  img_wrong.show;
+  b_nextQuest.Show;
+  mp_track.Stop;
+  P_a1.Hide;
+  P_a2.Hide;
 end;
 
 end.
+

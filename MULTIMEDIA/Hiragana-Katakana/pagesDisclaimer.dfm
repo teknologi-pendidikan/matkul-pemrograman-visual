@@ -1,6 +1,6 @@
 object PageDisclaimer: TPageDisclaimer
-  Left = 343
-  Top = 184
+  Left = 185
+  Top = 203
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'PageDisclaimer'
@@ -8227,6 +8227,14 @@ object PageDisclaimer: TPageDisclaimer
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
+  end
+  object L_devconsole: TLabel
+    Left = 8
+    Top = 8
+    Width = 65
+    Height = 13
+    Caption = 'L_devconsole'
+    OnClick = L_devconsoleClick
   end
   object P_MasukMenu: TPanel
     Left = 538

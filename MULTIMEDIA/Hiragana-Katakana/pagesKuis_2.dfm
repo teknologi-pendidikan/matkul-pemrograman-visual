@@ -1,6 +1,6 @@
 object pageKuis_2: TpageKuis_2
-  Left = -56
-  Top = 25
+  Left = -13
+  Top = 215
   BorderStyle = bsNone
   Caption = 'pageKuis_2'
   ClientHeight = 729
