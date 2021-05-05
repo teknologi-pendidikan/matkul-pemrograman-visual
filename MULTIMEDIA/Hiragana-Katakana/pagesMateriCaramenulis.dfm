@@ -1,6 +1,6 @@
 object pageMateriCaramenulis: TpageMateriCaramenulis
-  Left = 0
-  Top = 20
+  Left = 131
+  Top = 223
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'pageMateriCaramenulis'

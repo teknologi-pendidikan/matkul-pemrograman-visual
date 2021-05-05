@@ -1,6 +1,6 @@
 object PageDisclaimer: TPageDisclaimer
-  Left = 339
-  Top = 141
+  Left = 228
+  Top = 124
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'PageDisclaimer'
