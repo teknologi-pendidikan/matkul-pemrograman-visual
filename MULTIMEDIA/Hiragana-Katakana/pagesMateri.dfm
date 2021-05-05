@@ -1,6 +1,6 @@
 object pageMateri: TpageMateri
-  Left = -246
-  Top = 47
+  Left = 988
+  Top = 85
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMateri'
@@ -6481,6 +6481,7 @@ object pageMateri: TpageMateri
       5384AE93E68C53BA4EF747B7DB5B456B1F971038CE598F2CE7D58F1F800001D8
       57AC7C60FFD9}
     Transparent = True
+    Visible = False
     OnMouseMove = RevealDaftarHuruf
   end
   object img_buttonMainmenu: TImage

@@ -7,7 +7,7 @@ uses
   Dialogs, MPlayer, StdCtrls, jpeg, ExtCtrls;
 
 type
-  TpageKuis_3 = class(TForm)
+  TpageKuis_03 = class(TForm)
     img_background: TImage;
     L_pagesLocation: TLabel;
     L_titleMateri: TLabel;
@@ -31,11 +31,12 @@ type
   private
     { Private declarations }
   public
+    result: integer;
     { Public declarations }
   end;
 
 var
-  pageKuis_3: TpageKuis_3;
+  pageKuis_03: TpageKuis_03;
 
 implementation
 
@@ -43,7 +44,7 @@ uses pagesKuis_4;
 
 {$R *.dfm}
 
-procedure TpageKuis_3.b_a1Click(Sender: TObject);
+procedure TpageKuis_03.b_a1Click(Sender: TObject);
 begin
   mp_track.FileName := 'assets/kuis-audio/3-1.mp3';
   mp_track.Open;
@@ -51,7 +52,7 @@ begin
   b_aCheck.Show;
 end;
 
-procedure TpageKuis_3.b_a2Click(Sender: TObject);
+procedure TpageKuis_03.b_a2Click(Sender: TObject);
 begin
   mp_track.FileName := 'assets/kuis-audio/3-2.mp3';
   mp_track.Open;
@@ -59,7 +60,7 @@ begin
   b_aCheck.Show;
 end;
 
-procedure TpageKuis_3.b_a3Click(Sender: TObject);
+procedure TpageKuis_03.b_a3Click(Sender: TObject);
 begin
   mp_track.FileName := 'assets/kuis-audio/3-3.mp3';
   mp_track.Open;
@@ -67,7 +68,7 @@ begin
   b_aCheck.Show;
 end;
 
-procedure TpageKuis_3.b_aCheckClick(Sender: TObject);
+procedure TpageKuis_03.b_aCheckClick(Sender: TObject);
 begin
   if (rg_qGroup.ItemIndex = 1) or (rg_qGroup.ItemIndex = 2) then
   begin
@@ -79,6 +80,7 @@ begin
     b_a1.Hide;
     b_a2.Hide;
     b_a3.Hide;
+    result := 0;
   end;
 
   if rg_qGroup.ItemIndex = 0 then
@@ -91,14 +93,15 @@ begin
     b_a1.Hide;
     b_a2.Hide;
     b_a3.Hide;
+    result := 1;
   end;
 
 end;
 
-procedure TpageKuis_3.b_nextQClick(Sender: TObject);
+procedure TpageKuis_03.b_nextQClick(Sender: TObject);
 begin
-  pageKuis_3.Hide;
-  pageKuis_4.Show;
+  pageKuis_03.Hide;
+  pageKuis_04.Show;
 end;
 
 end.

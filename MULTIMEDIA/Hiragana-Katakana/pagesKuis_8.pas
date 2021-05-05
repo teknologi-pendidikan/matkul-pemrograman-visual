@@ -1,24 +1,25 @@
-unit pagesKuis_6;
+unit pagesKuis_8;
 
 interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, jpeg, ExtCtrls;
+  Dialogs, ExtCtrls, StdCtrls, MPlayer, jpeg;
 
 type
-  TpageKuis_06 = class(TForm)
+  TpageKuis_08 = class(TForm)
     img_background: TImage;
     L_pagesLocation: TLabel;
     L_titleMateri: TLabel;
     grp_q1: TGroupBox;
+    mp_track: TMediaPlayer;
+    b_playAudio: TButton;
     L_Quiestion: TLabel;
-    b_nextQuest: TButton;
-    img_question: TImage;
     e_answer: TEdit;
     L_inputHint: TLabel;
     b_aCheck: TButton;
-    procedure input(Sender: TObject; var Key: Char);
+    procedure b_playAudioClick(Sender: TObject);
+    procedure InputAnswer(Sender: TObject; var Key: Char);
     procedure b_aCheckClick(Sender: TObject);
   private
     { Private declarations }
@@ -28,33 +29,40 @@ type
   end;
 
 var
-  pageKuis_06: TpageKuis_06;
+  pageKuis_08: TpageKuis_08;
 
 implementation
 
-uses pagesKuis_7;
+uses pagesKuis_9;
 
 {$R *.dfm}
 
-procedure TpageKuis_06.input(Sender: TObject; var Key: Char);
+procedure TpageKuis_08.b_playAudioClick(Sender: TObject);
+begin
+  mp_track.FileName := 'assets\kuis-audio\3-1.mp3';
+  mp_track.Open;
+  mp_track.Play;
+end;
+
+procedure TpageKuis_08.InputAnswer(Sender: TObject; var Key: Char);
 begin
   b_aCheck.Show;
 end;
 
-procedure TpageKuis_06.b_aCheckClick(Sender: TObject);
+procedure TpageKuis_08.b_aCheckClick(Sender: TObject);
 begin
-  if e_answer.Text = 'konnichiwa' then
+  if e_answer.Text = 'arigatou' then
   begin
     ShowMessage('YEAY! Jawaban Kamu Benarrr!!!');
-    pageKuis_06.Hide;
-    pageKuis_07.Show;
+    pageKuis_08.Hide;
+    pageKuis_09.Show;
     result := 1;
   end
   else
   begin
     ShowMessage('Maaf, Jawaban kamu kurang tepat :(');
-    pageKuis_06.Hide;
-    pageKuis_07.Show;
+    pageKuis_08.Hide;
+    pageKuis_09.Show;
     result := 0;
   end;
 end;

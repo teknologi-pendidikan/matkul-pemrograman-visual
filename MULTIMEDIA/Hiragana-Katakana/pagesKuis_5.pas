@@ -7,7 +7,7 @@ uses
   Dialogs, OleCtrls, WMPLib_TLB, StdCtrls, ExtCtrls, MPlayer, jpeg;
 
 type
-  TpageKuis_5 = class(TForm)
+  TpageKuis_05 = class(TForm)
     img_background: TImage;
     L_pagesLocation: TLabel;
     L_titleMateri: TLabel;
@@ -26,11 +26,12 @@ type
   private
     { Private declarations }
   public
+    result: integer;
     { Public declarations }
   end;
 
 var
-  pageKuis_5: TpageKuis_5;
+  pageKuis_05: TpageKuis_05;
 
 implementation
 
@@ -38,14 +39,14 @@ uses pagesKuis_6;
 
 {$R *.dfm}
 
-procedure TpageKuis_5.b_playVideoClick(Sender: TObject);
+procedure TpageKuis_05.b_playVideoClick(Sender: TObject);
 begin
   wmp_carabaca.controls.play;
   P_a1.Show;
   P_a2.Show;
 end;
 
-procedure TpageKuis_5.P_a1Click(Sender: TObject);
+procedure TpageKuis_05.P_a1Click(Sender: TObject);
 begin
   mp_track.FileName := 'assets/kuis-audio/5-2-jawaban-kamu-benar.mp3';
   mp_track.Open;
@@ -55,12 +56,14 @@ begin
   P_a2.Hide;
   b_playVideo.Hide;
   ShowMessage('Yesss Kamu benarr!!');
-  pageKuis_5.Hide;
-  pageKuis_6.Show;
+  pageKuis_05.Hide;
+  pageKuis_06.Show;
+  result := 1;
+  mp_track.stop;
 
 end;
 
-procedure TpageKuis_5.P_a2Click(Sender: TObject);
+procedure TpageKuis_05.P_a2Click(Sender: TObject);
 begin
   mp_track.FileName := 'assets/kuis-audio/5-1-jawaban-kamu-kurang-tepat.mp3';
   mp_track.Open;
@@ -70,8 +73,10 @@ begin
   P_a1.Hide;
   b_playVideo.Hide;
   ShowMessage('Yah Sayang sekali :(');
-  pageKuis_5.Hide;
-  pageKuis_6.Show;
+  pageKuis_05.Hide;
+  pageKuis_06.Show;
+  result := 0;
+  mp_track.stop;
 end;
 
 end.

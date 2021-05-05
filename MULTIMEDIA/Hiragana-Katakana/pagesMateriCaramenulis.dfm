@@ -1,6 +1,6 @@
 object pageMateriCaramenulis: TpageMateriCaramenulis
-  Left = 591
-  Top = 154
+  Left = 1266
+  Top = 34
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'pageMateriCaramenulis'
@@ -2469,6 +2469,7 @@ object pageMateriCaramenulis: TpageMateriCaramenulis
       D30D85C454C254C461713429E2214DD19D6C3D7A519B9D1A918FE5F57E3A7F71
       8500140050014005001400500140050014005001400500140050014005001400
       5001400500140050014000FFD9}
+    Visible = False
     OnClick = img_buttonPenjelasanKatakanaClick
   end
   object img_buttonKembali: TImage

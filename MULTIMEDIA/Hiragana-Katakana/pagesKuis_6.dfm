@@ -1,10 +1,10 @@
-object pageKuis_6: TpageKuis_6
-  Left = 535
-  Top = 127
+object pageKuis_06: TpageKuis_06
+  Left = 624
+  Top = 18
   BorderStyle = bsNone
-  Caption = 'pageKuis_6'
-  ClientHeight = 729
-  ClientWidth = 1350
+  Caption = 'pageKuis_06'
+  ClientHeight = 745
+  ClientWidth = 1366
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -1535,7 +1535,7 @@ object pageKuis_6: TpageKuis_6
     Top = 168
     Width = 889
     Height = 449
-    Caption = 'Pertanyaan Nomor 5'
+    Caption = 'Pertanyaan Nomor 6'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -24

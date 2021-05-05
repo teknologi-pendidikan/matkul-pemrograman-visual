@@ -1,8 +1,8 @@
 object pageDevConsole: TpageDevConsole
-  Left = 61
-  Top = 62
-  Width = 651
-  Height = 479
+  Left = 1467
+  Top = 60
+  Width = 304
+  Height = 333
   Caption = 'pageDevConsole'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -16,8 +16,8 @@ object pageDevConsole: TpageDevConsole
   object grp1: TGroupBox
     Left = 16
     Top = 16
-    Width = 153
-    Height = 409
+    Width = 257
+    Height = 265
     Caption = 'Quick Akses Kuis'
     TabOrder = 0
     object Pq1: TPanel
@@ -66,13 +66,49 @@ object pageDevConsole: TpageDevConsole
       OnClick = Pq5Click
     end
     object Pq6: TPanel
-      Left = 24
-      Top = 240
+      Left = 136
+      Top = 40
       Width = 97
       Height = 33
       Caption = 'Pq6'
       TabOrder = 5
       OnClick = Pq6Click
+    end
+    object Pq7: TPanel
+      Left = 136
+      Top = 80
+      Width = 97
+      Height = 33
+      Caption = 'Pq7'
+      TabOrder = 6
+      OnClick = Pq7Click
+    end
+    object Pq8: TPanel
+      Left = 136
+      Top = 120
+      Width = 97
+      Height = 33
+      Caption = 'Pq8'
+      TabOrder = 7
+      OnClick = Pq8Click
+    end
+    object Pq9: TPanel
+      Left = 136
+      Top = 160
+      Width = 97
+      Height = 33
+      Caption = 'Pq9'
+      TabOrder = 8
+      OnClick = Pq9Click
+    end
+    object Pq10: TPanel
+      Left = 136
+      Top = 200
+      Width = 97
+      Height = 33
+      Caption = 'Pq10'
+      TabOrder = 9
+      OnClick = Pq10Click
     end
   end
 end

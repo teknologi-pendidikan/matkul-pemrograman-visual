@@ -40,7 +40,7 @@ var
 
 implementation
 
-uses pagesMateri, pagesKuis_1;
+uses pagesMateri, pagesKuis_1, pagesHasiltest;
 
 {$R *.dfm}
 
@@ -66,7 +66,8 @@ end;
 procedure TpageMainmenu.img_buttonKuisClick(Sender: TObject);
 begin
   pageMainmenu.Hide;
-  pageKuis_1.Show;
+  pageKuis_01.Show;
+  pageHasiltest.tmr_KuisTimer.Enabled := True;
 end;
 
 procedure TpageMainmenu.HideHintPenjelasan(Sender: TObject;
@@ -97,3 +98,4 @@ begin
 end;
 
 end.
+

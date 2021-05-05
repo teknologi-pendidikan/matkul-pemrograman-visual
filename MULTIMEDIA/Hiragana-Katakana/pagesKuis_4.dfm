@@ -1,8 +1,8 @@
-object pageKuis_4: TpageKuis_4
-  Left = 75
-  Top = 40
+object pageKuis_04: TpageKuis_04
+  Left = 275
+  Top = 259
   BorderStyle = bsNone
-  Caption = 'pageKuis_4'
+  Caption = 'pageKuis_04'
   ClientHeight = 729
   ClientWidth = 1350
   Color = clBtnFace

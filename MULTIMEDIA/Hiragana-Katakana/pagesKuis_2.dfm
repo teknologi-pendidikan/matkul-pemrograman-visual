@@ -1,8 +1,8 @@
-object pageKuis_2: TpageKuis_2
-  Left = -13
-  Top = 215
+object pageKuis_02: TpageKuis_02
+  Left = -148
+  Top = 154
   BorderStyle = bsNone
-  Caption = 'pageKuis_2'
+  Caption = 'pageKuis_02'
   ClientHeight = 729
   ClientWidth = 1350
   Color = clBtnFace

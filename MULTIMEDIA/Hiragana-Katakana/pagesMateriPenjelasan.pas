@@ -38,7 +38,6 @@ type
 
 var
   pageMateriPenjelasan: TpageMateriPenjelasan;
-  a: Boolean;
 
 implementation
 

@@ -1,10 +1,10 @@
-object pageKuis_3: TpageKuis_3
-  Left = -128
-  Top = 276
+object pageKuis_03: TpageKuis_03
+  Left = -8
+  Top = -8
   BorderStyle = bsNone
-  Caption = 'pageKuis_3'
-  ClientHeight = 729
-  ClientWidth = 1350
+  Caption = 'pageKuis_03'
+  ClientHeight = 745
+  ClientWidth = 1366
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

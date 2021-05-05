@@ -7,7 +7,7 @@ uses
   Dialogs, StdCtrls, jpeg, ExtCtrls;
 
 type
-  TpageKuis_1 = class(TForm)
+  TpageKuis_01 = class(TForm)
     img_background: TImage;
     L_pagesLocation: TLabel;
     L_titleMateri: TLabel;
@@ -20,11 +20,12 @@ type
   private
     { Private declarations }
   public
+    result: integer;
     { Public declarations }
   end;
 
 var
-  pageKuis_1: TpageKuis_1;
+  pageKuis_01: TpageKuis_01;
 
 implementation
 
@@ -32,18 +33,21 @@ uses pagesKuis_2;
 
 {$R *.dfm}
 
-procedure TpageKuis_1.img_buttonPenjelasanHiraganaClick(Sender: TObject);
+procedure TpageKuis_01.img_buttonPenjelasanHiraganaClick(Sender: TObject);
 begin
   ShowMessage('Maaf, jawaban kamu masih salah');
-  pageKuis_1.Hide;
-  pageKuis_2.Show;
+  pageKuis_01.Hide;
+  pageKuis_02.Show;
+  result := 1;
 end;
 
-procedure TpageKuis_1.img_buttonPenjelasanKatakanaClick(Sender: TObject);
+procedure TpageKuis_01.img_buttonPenjelasanKatakanaClick(Sender: TObject);
 begin
   ShowMessage('Hore! Jawaban Kamu Benar!');
-  pageKuis_1.Hide;
-  pageKuis_2.Show;
+  pageKuis_01.Hide;
+  pageKuis_02.Show;
+  result := 0;
 end;
 
 end.
+
