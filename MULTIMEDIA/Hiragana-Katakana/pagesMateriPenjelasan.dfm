@@ -1,6 +1,6 @@
 object pageMateriPenjelasan: TpageMateriPenjelasan
-  Left = 51
-  Top = 261
+  Left = 107
+  Top = 10
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMateriPenjelasan'
@@ -14,8 +14,8 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
   Font.Style = []
   OldCreateOrder = False
   WindowState = wsMaximized
-  OnCreate = InitialState
   OnHide = ResetAll
+  OnShow = InitialState
   PixelsPerInch = 96
   TextHeight = 13
   object img_background: TImage

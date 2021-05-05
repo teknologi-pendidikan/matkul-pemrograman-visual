@@ -41,7 +41,7 @@ var
 
 implementation
 
-uses pagesMateri;
+uses pagesMateri, pagesDevConsole;
 
 {$R *.dfm}
 
@@ -49,6 +49,7 @@ procedure TpageMateriPenjelasan.img_buttonKembaliClick(Sender: TObject);
 begin
   pageMateriPenjelasan.Hide;
   pageMateri.Show;
+  pageDevConsole.mp_bgMusic.Play;
 end;
 
 procedure TpageMateriPenjelasan.img_buttonPenjelasanUmumClick(
@@ -117,6 +118,7 @@ begin
   img_higana.Hide;
   img_symbolHiragana.Hide;
   img_symbolKatakana.Hide;
+  pageDevConsole.mp_bgMusic.Pause;
 end;
 
 procedure TpageMateriPenjelasan.button_stopaudioClick(Sender: TObject);
@@ -125,4 +127,3 @@ begin
 end;
 
 end.
-

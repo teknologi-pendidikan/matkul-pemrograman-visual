@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls;
+  Dialogs, StdCtrls, ExtCtrls, MPlayer;
 
 type
   TpageDevConsole = class(TForm)
@@ -14,11 +14,27 @@ type
     Pq4: TPanel;
     Pq5: TPanel;
     Pq6: TPanel;
-    grp1: TGroupBox;
+    grp_pagesQuis: TGroupBox;
     Pq7: TPanel;
     Pq8: TPanel;
     Pq9: TPanel;
     Pq10: TPanel;
+    grp_pages: TGroupBox;
+    P_Mainmenu: TPanel;
+    P_MenuMateri: TPanel;
+    P_MateriCarabaca: TPanel;
+    P_MateriCaraMenulis: TPanel;
+    P_MateriPenjelasan: TPanel;
+    P_Hasiltest: TPanel;
+    P_Disclaimer: TPanel;
+    grp_DebugCommands: TGroupBox;
+    b_Destroy: TButton;
+    b1: TButton;
+    grp_systemAssets: TGroupBox;
+    grp_SystemStatus: TGroupBox;
+    mp_bgMusic: TMediaPlayer;
+    b_REFRESH: TButton;
+    L_qStatus: TLabel;
     procedure Pq6Click(Sender: TObject);
     procedure Pq5Click(Sender: TObject);
     procedure Pq4Click(Sender: TObject);
@@ -29,9 +45,20 @@ type
     procedure Pq8Click(Sender: TObject);
     procedure Pq9Click(Sender: TObject);
     procedure Pq10Click(Sender: TObject);
+    procedure P_MainmenuClick(Sender: TObject);
+    procedure P_MenuMateriClick(Sender: TObject);
+    procedure P_MateriCarabacaClick(Sender: TObject);
+    procedure P_MateriCaraMenulisClick(Sender: TObject);
+    procedure P_MateriPenjelasanClick(Sender: TObject);
+    procedure P_HasiltestClick(Sender: TObject);
+    procedure P_DisclaimerClick(Sender: TObject);
+    procedure b_DestroyClick(Sender: TObject);
+    procedure b1Click(Sender: TObject);
+    procedure b_REFRESHClick(Sender: TObject);
   private
     { Private declarations }
   public
+    quisFinished: Boolean;
     { Public declarations }
   end;
 
@@ -41,7 +68,9 @@ var
 implementation
 
 uses pagesKuis_6, pagesKuis_5, pagesKuis_4, pagesKuis_3, pagesKuis_2,
-  pagesKuis_1, pagesKuis_7, pagesKuis_10, pagesKuis_8, pagesKuis_9;
+  pagesKuis_1, pagesKuis_7, pagesKuis_10, pagesKuis_8, pagesKuis_9,
+  pagesMainmenu, pagesMateri, pagesMateriCarabaca, pagesMateriCaramenulis,
+  pagesMateriPenjelasan, pagesHasiltest, pagesDisclaimer;
 
 {$R *.dfm}
 
@@ -95,5 +124,54 @@ begin
   pageKuis_10.show;
 end;
 
-end.
+procedure TpageDevConsole.P_MainmenuClick(Sender: TObject);
+begin
+  pageMainmenu.Show;
+end;
 
+procedure TpageDevConsole.P_MenuMateriClick(Sender: TObject);
+begin
+  pageMateri.Show;
+end;
+
+procedure TpageDevConsole.P_MateriCarabacaClick(Sender: TObject);
+begin
+  pageMateriCarabaca.show;
+end;
+
+procedure TpageDevConsole.P_MateriCaraMenulisClick(Sender: TObject);
+begin
+  pageMateriCaramenulis.Show;
+end;
+
+procedure TpageDevConsole.P_MateriPenjelasanClick(Sender: TObject);
+begin
+  pageMateriPenjelasan.show;
+end;
+
+procedure TpageDevConsole.P_HasiltestClick(Sender: TObject);
+begin
+  pageHasiltest.show;
+end;
+
+procedure TpageDevConsole.P_DisclaimerClick(Sender: TObject);
+begin
+  //pageDisclaimer.Show;
+end;
+
+procedure TpageDevConsole.b_DestroyClick(Sender: TObject);
+begin
+  Application.Terminate;
+end;
+
+procedure TpageDevConsole.b1Click(Sender: TObject);
+begin
+  Application.FreeInstance;
+end;
+
+procedure TpageDevConsole.b_REFRESHClick(Sender: TObject);
+begin
+  L_qStatus.Caption := 'L_qStatus: ' + BoolToStr(quisFinished);
+end;
+
+end.

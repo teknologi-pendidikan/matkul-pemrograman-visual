@@ -1,12 +1,13 @@
 object PageDisclaimer: TPageDisclaimer
-  Left = -113
-  Top = 112
+  Left = 339
+  Top = 141
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'PageDisclaimer'
   ClientHeight = 728
   ClientWidth = 1008
   Color = clBtnFace
+  DefaultMonitor = dmPrimary
   DragMode = dmAutomatic
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,6 +16,7 @@ object PageDisclaimer: TPageDisclaimer
   Font.Style = []
   OldCreateOrder = False
   WindowState = wsMaximized
+  OnShow = Show
   PixelsPerInch = 96
   TextHeight = 13
   object img1: TImage

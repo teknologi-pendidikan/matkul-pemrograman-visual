@@ -54,7 +54,7 @@ var
 
 implementation
 
-uses pagesMateri;
+uses pagesMateri, pagesDevConsole;
 
 {$R *.dfm}
 
@@ -62,6 +62,7 @@ procedure TpageMateriCaramenulis.img_buttonKembaliClick(Sender: TObject);
 begin
   pageMateriCaramenulis.Hide;
   pageMateri.Show;
+  pageDevConsole.mp_bgMusic.Play;
 end;
 
 procedure TpageMateriCaramenulis.initialState(Sender: TObject);
@@ -75,6 +76,7 @@ begin
   grp_AnimasiHiragana.Color := color;
   grp_strokeTutorial.Hide;
   grp_AnimasiHiragana.Hide;
+  pageDevConsole.mp_bgMusic.Pause;
 end;
 
 procedure TpageMateriCaramenulis.img_buttonPenjelasanKatakanaClick(
@@ -166,4 +168,3 @@ begin
 end;
 
 end.
-

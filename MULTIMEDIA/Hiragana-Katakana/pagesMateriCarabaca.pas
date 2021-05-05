@@ -33,7 +33,7 @@ var
 
 implementation
 
-uses pagesMateri;
+uses pagesMateri, pagesDevConsole;
 
 {$R *.dfm}
 
@@ -43,10 +43,12 @@ begin
   wmp_carabaca.controls.stop;
   pageMateriCarabaca.Hide;
   pageMateri.Show;
+  pageDevConsole.mp_bgMusic.Play;
 end;
 
 procedure TpageMateriCarabaca.initialState(Sender: TObject);
 begin
+  pageDevConsole.mp_bgMusic.Pause;
   L_PendingPlay.Show;
   mmo_carabaca.Show;
   wmp_carabaca.Hide;

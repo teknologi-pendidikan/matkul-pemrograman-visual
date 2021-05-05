@@ -24,8 +24,11 @@ type
     L_pointGrade: TLabel;
     L_Lulus: TLabel;
     L_TidakLulus: TLabel;
+    b_backtomenu: TButton;
     procedure tmr_KuisTimerTimer(Sender: TObject);
     procedure b_resultsTestClick(Sender: TObject);
+    procedure b_backtomenuClick(Sender: TObject);
+    procedure ShowForm(Sender: TObject);
   private
     { Private declarations }
   public
@@ -40,7 +43,8 @@ var
 implementation
 
 uses pagesKuis_6, pagesKuis_5, pagesKuis_4, pagesKuis_3, pagesKuis_2,
-  pagesKuis_1, pagesKuis_7, pagesKuis_10, pagesKuis_8, pagesKuis_9;
+  pagesKuis_1, pagesKuis_7, pagesKuis_10, pagesKuis_8, pagesKuis_9,
+  pagesMainmenu, pagesDevConsole;
 
 {$R *.dfm}
 
@@ -73,9 +77,9 @@ begin
   // Grade Status
   if FinalResult <= 3 then
     L_pointGrade.Caption := 'D'
-  else if (FinalResult >= 4) and (FinalResult < 7 ) then
+  else if (FinalResult >= 4) and (FinalResult < 7) then
     L_pointGrade.Caption := 'C'
-  else if (FinalResult >= 7) and (FinalResult < 10 ) then
+  else if (FinalResult >= 7) and (FinalResult < 10) then
     L_pointGrade.Caption := 'B'
   else if FinalResult = 10 then
     L_pointGrade.Caption := 'A';
@@ -95,7 +99,29 @@ begin
   L_textJawabanSalah.Show;
   grp_grade.Show;
   grp_status.Show;
+  b_backtomenu.Show;
+end;
+
+procedure TpageHasiltest.b_backtomenuClick(Sender: TObject);
+begin
+  pageHasiltest.Hide;
+  pageMainmenu.Show;
+  pageKuis_01.Destroy;
+  pageKuis_02.Destroy;
+  pageKuis_03.Destroy;
+  pageKuis_04.Destroy;
+  pageKuis_05.Destroy;
+  pageKuis_06.Destroy;
+  pageKuis_07.Destroy;
+  pageKuis_08.Destroy;
+  pageKuis_09.Destroy;
+  pageKuis_10.Destroy;
+  pageDevConsole.quisFinished := True;
+end;
+
+procedure TpageHasiltest.ShowForm(Sender: TObject);
+begin
+  pageDevConsole.mp_bgMusic.Play;
 end;
 
 end.
-

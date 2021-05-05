@@ -40,7 +40,9 @@ var
 
 implementation
 
-uses pagesMateri, pagesKuis_1, pagesHasiltest;
+uses pagesMateri, pagesKuis_1, pagesHasiltest, pagesDevConsole,
+  pagesKuis_2, pagesKuis_3, pagesKuis_4, pagesKuis_5, pagesKuis_6,
+  pagesKuis_7, pagesKuis_8, pagesKuis_9, pagesKuis_10;
 
 {$R *.dfm}
 
@@ -65,9 +67,23 @@ end;
 
 procedure TpageMainmenu.img_buttonKuisClick(Sender: TObject);
 begin
+  if pageDevConsole.quisFinished = true then
+  begin
+    Application.CreateForm(TpageKuis_01, pageKuis_01);
+    Application.CreateForm(TpageKuis_02, pageKuis_02);
+    Application.CreateForm(TpageKuis_03, pageKuis_03);
+    Application.CreateForm(TpageKuis_04, pageKuis_04);
+    Application.CreateForm(TpageKuis_05, pageKuis_05);
+    Application.CreateForm(TpageKuis_06, pageKuis_06);
+    Application.CreateForm(TpageKuis_07, pageKuis_07);
+    Application.CreateForm(TpageKuis_08, pageKuis_08);
+    Application.CreateForm(TpageKuis_09, pageKuis_09);
+    Application.CreateForm(TpageKuis_10, pageKuis_10);
+  end;
   pageMainmenu.Hide;
   pageKuis_01.Show;
   pageHasiltest.tmr_KuisTimer.Enabled := True;
+  pageDevConsole.mp_bgMusic.Pause;
 end;
 
 procedure TpageMainmenu.HideHintPenjelasan(Sender: TObject;
@@ -98,4 +114,3 @@ begin
 end;
 
 end.
-

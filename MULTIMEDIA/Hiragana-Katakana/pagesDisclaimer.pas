@@ -16,6 +16,7 @@ type
     procedure MasukMenu(Sender: TObject);
     procedure ExitApp(Sender: TObject);
     procedure L_devconsoleClick(Sender: TObject);
+    procedure Show(Sender: TObject);
   private
     { Private declarations }
   public
@@ -47,5 +48,10 @@ begin
   pageDevConsole.Show;
 end;
 
-end.
+procedure TPageDisclaimer.Show(Sender: TObject);
+begin
+  pageDevConsole.mp_bgMusic.Play;
+  pageDevConsole.quisFinished := False;
+end;
 
+end.

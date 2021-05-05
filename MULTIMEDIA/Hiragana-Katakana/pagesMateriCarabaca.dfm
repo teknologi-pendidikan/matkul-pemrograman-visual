@@ -1,6 +1,6 @@
 object pageMateriCarabaca: TpageMateriCarabaca
-  Left = 104
-  Top = 204
+  Left = 1326
+  Top = 157
   BorderIcons = [biMinimize, biMaximize]
   BorderStyle = bsNone
   Caption = 'pageMateriCarabaca'

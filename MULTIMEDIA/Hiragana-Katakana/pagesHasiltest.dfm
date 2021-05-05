@@ -1,6 +1,6 @@
 object pageHasiltest: TpageHasiltest
-  Left = 1358
-  Top = -8
+  Left = 1209
+  Top = 47
   BorderStyle = bsNone
   Caption = 'pageHasiltest'
   ClientHeight = 745
@@ -13,6 +13,7 @@ object pageHasiltest: TpageHasiltest
   Font.Style = []
   OldCreateOrder = False
   WindowState = wsMaximized
+  OnShow = ShowForm
   PixelsPerInch = 96
   TextHeight = 13
   object img_background: TImage
@@ -6355,6 +6356,22 @@ object pageHasiltest: TpageHasiltest
       TabOrder = 0
       OnClick = b_resultsTestClick
     end
+  end
+  object b_backtomenu: TButton
+    Left = 582
+    Top = 648
+    Width = 201
+    Height = 49
+    Caption = 'KEMBALI KE MENU'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    Visible = False
+    OnClick = b_backtomenuClick
   end
   object tmr_KuisTimer: TTimer
     Enabled = False
