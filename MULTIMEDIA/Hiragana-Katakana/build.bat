@@ -13,7 +13,7 @@ echo +++++++++++++++++++++++++++++++++
 echo COMPILING PROJECTS!
 echo +++++++++++++++++++++++++++++++++
 echo.
-dcc32 ./HiraganaKatakana.dpr -B
+dcc32 HiraganaKatakana.dpr -B
 echo.
 echo Projects Compilation Finished
 echo =================================
