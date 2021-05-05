@@ -70,3 +70,5 @@ modules/
 
 # Compiled Projects Folder
 dist/
+
+!HiraganaKatakana.cfg

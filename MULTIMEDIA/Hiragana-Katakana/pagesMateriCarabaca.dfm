@@ -2821,8 +2821,7 @@ object pageMateriCarabaca: TpageMateriCarabaca
     AutoOpen = True
     AutoRewind = False
     FileName = 
-      'C:\Users\hi\GitHub\_TeknologiPendidikan\matkul-pemrograman-visua' +
-      'l\MULTIMEDIA\Hiragana-Katakana\assets\audio\bunyidasar.mp3'
+      'assets\audio\bunyidasar.mp3'
     Visible = False
     TabOrder = 1
     TabStop = False

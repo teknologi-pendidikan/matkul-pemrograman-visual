@@ -9,21 +9,25 @@ rmdir dist /S /Q
 
 mkdir dist
 
-echo Starting to Build....
-echo Compiling Sources....
-
-dcc32 ./HiraganaKatakana.dpr
-
+echo +++++++++++++++++++++++++++++++++
+echo COMPILING PROJECTS!
+echo +++++++++++++++++++++++++++++++++
+echo.
+dcc32 ./HiraganaKatakana.dpr -B
+echo.
 echo Projects Compilation Finished
 echo =================================
-
 echo.
 
-echo Compiling Assets Library
+echo +++++++++++++++++++++++++++++++++
+echo ASSETS DUPLICATION
+echo +++++++++++++++++++++++++++++++++
+echo.
 xcopy assets\ dist\asets /E/H/C/I 
-
+echo.
 echo Assets Reduplication Finished
 echo =================================
+echo.
 
 echo BUILDING COMPLETED
 echo.

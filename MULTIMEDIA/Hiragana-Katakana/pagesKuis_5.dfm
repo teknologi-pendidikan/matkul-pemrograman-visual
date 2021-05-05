@@ -1650,8 +1650,7 @@ object pageKuis_05: TpageKuis_05
     Height = 30
     AutoRewind = False
     FileName = 
-      'C:\Users\hi\GitHub\_TeknologiPendidikan\matkul-pemrograman-visua' +
-      'l\MULTIMEDIA\Hiragana-Katakana\assets\audio\bunyidasar.mp3'
+      'assets\audio\bunyidasar.mp3'
     Visible = False
     TabOrder = 2
   end
