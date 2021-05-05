@@ -23,7 +23,7 @@ echo +++++++++++++++++++++++++++++++++
 echo ASSETS DUPLICATION
 echo +++++++++++++++++++++++++++++++++
 echo.
-xcopy assets\ dist\asets /E/H/C/I 
+xcopy assets\ dist\assets /E/H/C/I 
 echo.
 echo Assets Reduplication Finished
 echo =================================
