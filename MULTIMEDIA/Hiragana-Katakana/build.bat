@@ -11,8 +11,11 @@ rmdir dist /S /Q
 
 mkdir dist
 
-if %mode%==dry goto assets_duplication
+if %mode%=="full" goto full_build
 
+if %mode%=="dry" goto assets_duplication 
+
+:full_build
 echo +++++++++++++++++++++++++++++++++
 echo COMPILING PROJECTS!
 echo +++++++++++++++++++++++++++++++++
