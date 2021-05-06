@@ -17,6 +17,7 @@ type
     L_hintKuis: TLabel;
     L_hintKD: TLabel;
     L_hintKeluarApp: TLabel;
+    L_devconsole: TLabel;
     procedure Exit(Sender: TObject);
     procedure img_buttonMateriClick(Sender: TObject);
     procedure ShowForm(Sender: TObject);
@@ -29,6 +30,7 @@ type
       Y: Integer);
     procedure ShowHintKeluar(Sender: TObject; Shift: TShiftState; X,
       Y: Integer);
+    procedure L_devconsoleClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -82,7 +84,7 @@ begin
   end;
   pageMainmenu.Hide;
   pageKuis_01.Show;
-  pageHasiltest.tmr_KuisTimer.Enabled := True;
+  pageDevConsole.tmr_KuisTimer.Enabled := True;
   pageDevConsole.mp_bgMusic.Pause;
 end;
 
@@ -113,4 +115,10 @@ begin
   L_hintKeluarApp.Show;
 end;
 
+procedure TpageMainmenu.L_devconsoleClick(Sender: TObject);
+begin
+  pageDevConsole.Show;
+end;
+
 end.
+

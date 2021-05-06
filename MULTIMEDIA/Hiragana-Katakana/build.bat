@@ -5,9 +5,13 @@ echo Delphi 7 Build Script
 echo =================================
 echo.
 
+set mode==%1
+
 rmdir dist /S /Q
 
 mkdir dist
+
+if %mode%==dry goto assets_duplication
 
 echo +++++++++++++++++++++++++++++++++
 echo COMPILING PROJECTS!
@@ -19,6 +23,7 @@ echo Projects Compilation Finished
 echo =================================
 echo.
 
+:assets_duplication
 echo +++++++++++++++++++++++++++++++++
 echo ASSETS DUPLICATION
 echo +++++++++++++++++++++++++++++++++

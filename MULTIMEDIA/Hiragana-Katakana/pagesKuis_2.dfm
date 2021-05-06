@@ -1,6 +1,6 @@
 object pageKuis_02: TpageKuis_02
-  Left = -148
-  Top = 154
+  Left = -7
+  Top = 7
   BorderStyle = bsNone
   Caption = 'pageKuis_02'
   ClientHeight = 729
@@ -2710,8 +2710,7 @@ object pageKuis_02: TpageKuis_02
       Width = 253
       Height = 30
       AutoRewind = False
-      FileName = 
-        'assets\audio\bunyidasar.mp3'
+      FileName = 'assets\audio\bunyidasar.mp3'
       Visible = False
       TabOrder = 0
     end

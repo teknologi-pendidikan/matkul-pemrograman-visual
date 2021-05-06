@@ -1,6 +1,6 @@
 object pageMateriCarabaca: TpageMateriCarabaca
-  Left = 1326
-  Top = 157
+  Left = -7
+  Top = 7
   BorderIcons = [biMinimize, biMaximize]
   BorderStyle = bsNone
   Caption = 'pageMateriCarabaca'
@@ -2818,10 +2818,7 @@ object pageMateriCarabaca: TpageMateriCarabaca
     Height = 30
     Enabled = False
     AutoEnable = False
-    AutoOpen = True
     AutoRewind = False
-    FileName = 
-      'assets\audio\bunyidasar.mp3'
     Visible = False
     TabOrder = 1
     TabStop = False

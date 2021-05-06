@@ -8,15 +8,19 @@ uses
 
 type
   TPageDisclaimer = class(TForm)
-    img1: TImage;
+    img_background: TImage;
     L_disclaimer: TLabel;
     P_MasukMenu: TPanel;
     P_KeluarAplikasi: TPanel;
     L_devconsole: TLabel;
+    img_AudioOn: TImage;
+    img_bAudioOff: TImage;
     procedure MasukMenu(Sender: TObject);
     procedure ExitApp(Sender: TObject);
     procedure L_devconsoleClick(Sender: TObject);
     procedure Show(Sender: TObject);
+    procedure img_AudioOnClick(Sender: TObject);
+    procedure AudioOff(Sender: TObject);
   private
     { Private declarations }
   public
@@ -54,4 +58,17 @@ begin
   pageDevConsole.quisFinished := False;
 end;
 
+procedure TPageDisclaimer.img_AudioOnClick(Sender: TObject);
+begin
+  pageDevConsole.mp_bgMusic.Pause;
+  img_bAudioOff.BringToFront;
+end;
+
+procedure TPageDisclaimer.AudioOff(Sender: TObject);
+begin
+  pageDevConsole.mp_bgMusic.play;
+  img_AudioOn.BringToFront;
+end;
+
 end.
+

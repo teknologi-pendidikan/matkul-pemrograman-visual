@@ -1,6 +1,6 @@
 object pageMainmenu: TpageMainmenu
-  Left = -357
-  Top = 204
+  Left = -7
+  Top = 7
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMainmenu'
@@ -8113,5 +8113,13 @@ object pageMainmenu: TpageMainmenu
     ParentFont = False
     Transparent = True
     Visible = False
+  end
+  object L_devconsole: TLabel
+    Left = 8
+    Top = 8
+    Width = 65
+    Height = 13
+    Caption = 'L_devconsole'
+    OnClick = L_devconsoleClick
   end
 end

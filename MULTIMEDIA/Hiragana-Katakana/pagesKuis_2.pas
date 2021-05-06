@@ -44,7 +44,7 @@ uses pagesKuis_3;
 
 procedure TpageKuis_02.b_playAudioClick(Sender: TObject);
 begin
-  mp_track.FileName := 'assets\audio\bunyidasar.mp3';
+  mp_track.FileName := 'assets\kuis-audio\2.mp3';
   mp_track.Open;
   mp_track.Play;
   P_a1.Show;
@@ -89,3 +89,4 @@ begin
 end;
 
 end.
+

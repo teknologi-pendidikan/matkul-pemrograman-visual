@@ -40,6 +40,7 @@ uses pagesMateri, pagesDevConsole;
 procedure TpageMateriCarabaca.img_buttonKembaliClick(Sender: TObject);
 begin
   mp_CaraBaca.stop;
+  mp_CaraBaca.Eject;
   wmp_carabaca.controls.stop;
   pageMateriCarabaca.Hide;
   pageMateri.Show;
@@ -56,6 +57,7 @@ begin
   mp_CaraBaca.Notify := True;
   mp_CaraBaca.TimeFormat := tfFrames;
   mp_CaraBaca.OnNotify := StartVideo;
+  mp_CaraBaca.FileName := 'assets\audio\bunyidasar.mp3';
   mp_CaraBaca.Open;
   mp_CaraBaca.EndPos := mp_CaraBaca.Length;
   mp_CaraBaca.Play;
@@ -85,3 +87,4 @@ begin
 end;
 
 end.
+

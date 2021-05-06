@@ -36,7 +36,7 @@ var
 
 implementation
 
-uses pagesHasiltest;
+uses pagesHasiltest, pagesDevConsole;
 
 {$R *.dfm}
 
@@ -67,7 +67,7 @@ procedure TpageKuis_10.b_nextQClick(Sender: TObject);
 begin
   pageKuis_10.Hide;
   pageHasiltest.Show;
-  pageHasiltest.tmr_KuisTimer.Enabled := False;
+  pageDevConsole.tmr_KuisTimer.Enabled := False;
 end;
 
 end.

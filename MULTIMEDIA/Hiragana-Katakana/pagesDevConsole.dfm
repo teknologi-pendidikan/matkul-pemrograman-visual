@@ -1,9 +1,10 @@
 object pageDevConsole: TpageDevConsole
-  Left = 1685
-  Top = 68
-  Width = 969
-  Height = 497
+  Left = 265
+  Top = 194
+  BorderStyle = bsSingle
   Caption = 'pageDevConsole'
+  ClientHeight = 458
+  ClientWidth = 953
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -12,6 +13,7 @@ object pageDevConsole: TpageDevConsole
   Font.Style = []
   FormStyle = fsStayOnTop
   OldCreateOrder = False
+  Position = poDesktopCenter
   PixelsPerInch = 96
   TextHeight = 13
   object grp_pagesQuis: TGroupBox
@@ -190,23 +192,23 @@ object pageDevConsole: TpageDevConsole
     Height = 265
     Caption = 'Debug Commands'
     TabOrder = 2
-    object b_Destroy: TButton
+    object b_Terminate: TButton
       Left = 24
       Top = 40
       Width = 105
       Height = 33
-      Caption = 'b_Destroy'
+      Caption = 'b_Terminate'
       TabOrder = 0
-      OnClick = b_DestroyClick
+      OnClick = b_TerminateClick
     end
-    object b1: TButton
-      Left = 24
-      Top = 80
+    object b_FreeInstance: TButton
+      Left = 144
+      Top = 40
       Width = 105
       Height = 33
       Caption = 'b_FreeInstance'
       TabOrder = 1
-      OnClick = b1Click
+      OnClick = b_FreeInstanceClick
     end
     object b_REFRESH: TButton
       Left = 24
@@ -216,6 +218,24 @@ object pageDevConsole: TpageDevConsole
       Caption = 'b_REFRESH'
       TabOrder = 2
       OnClick = b_REFRESHClick
+    end
+    object b_DestroyForm: TButton
+      Left = 24
+      Top = 88
+      Width = 105
+      Height = 33
+      Caption = 'b_DestroyForm'
+      TabOrder = 3
+      OnClick = b_DestroyFormClick
+    end
+    object b_CreateForm: TButton
+      Left = 144
+      Top = 88
+      Width = 105
+      Height = 33
+      Caption = 'b_CreateForm'
+      TabOrder = 4
+      OnClick = b_CreateFormClick
     end
   end
   object grp_systemAssets: TGroupBox
@@ -249,5 +269,11 @@ object pageDevConsole: TpageDevConsole
       Height = 13
       Caption = 'L_qStatus'
     end
+  end
+  object tmr_KuisTimer: TTimer
+    Enabled = False
+    OnTimer = tmr_KuisTimerTimer
+    Left = 51
+    Top = 375
   end
 end

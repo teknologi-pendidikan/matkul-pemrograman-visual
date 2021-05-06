@@ -1,10 +1,10 @@
 object pageHasiltest: TpageHasiltest
-  Left = 1209
-  Top = 47
+  Left = -7
+  Top = 2
   BorderStyle = bsNone
   Caption = 'pageHasiltest'
-  ClientHeight = 745
-  ClientWidth = 1366
+  ClientHeight = 734
+  ClientWidth = 1362
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -6372,11 +6372,5 @@ object pageHasiltest: TpageHasiltest
     TabOrder = 1
     Visible = False
     OnClick = b_backtomenuClick
-  end
-  object tmr_KuisTimer: TTimer
-    Enabled = False
-    OnTimer = tmr_KuisTimerTimer
-    Left = 16
-    Top = 16
   end
 end

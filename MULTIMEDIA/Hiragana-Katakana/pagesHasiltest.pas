@@ -12,7 +12,6 @@ type
     L_titleMateri: TLabel;
     grp_hasilTest: TGroupBox;
     b_resultsTest: TButton;
-    tmr_KuisTimer: TTimer;
     L_elapsedTime: TLabel;
     L_textElapsedTime: TLabel;
     L_textJawabanBenar: TLabel;
@@ -25,7 +24,6 @@ type
     L_Lulus: TLabel;
     L_TidakLulus: TLabel;
     b_backtomenu: TButton;
-    procedure tmr_KuisTimerTimer(Sender: TObject);
     procedure b_resultsTestClick(Sender: TObject);
     procedure b_backtomenuClick(Sender: TObject);
     procedure ShowForm(Sender: TObject);
@@ -37,7 +35,6 @@ type
 
 var
   pageHasiltest: TpageHasiltest;
-  ElapsedTime: integer;
   FinalResult: Integer;
 
 implementation
@@ -48,10 +45,6 @@ uses pagesKuis_6, pagesKuis_5, pagesKuis_4, pagesKuis_3, pagesKuis_2,
 
 {$R *.dfm}
 
-procedure TpageHasiltest.tmr_KuisTimerTimer(Sender: TObject);
-begin
-  elapsedTime := ElapsedTime + 1;
-end;
 
 procedure TpageHasiltest.b_resultsTestClick(Sender: TObject);
 begin
@@ -85,7 +78,7 @@ begin
     L_pointGrade.Caption := 'A';
 
   // Input Variable
-  L_elapsedTime.Caption := IntToStr(ElapsedTime) + ' Detik';
+  L_elapsedTime.Caption := IntToStr(pageDevConsole.quizElapsedTime) + ' Detik';
   L_JawabanBenar.Caption := IntToStr(FinalResult);
   L_JawabanSalah.Caption := IntToStr(10 - FinalResult);
 
@@ -125,3 +118,4 @@ begin
 end;
 
 end.
+
