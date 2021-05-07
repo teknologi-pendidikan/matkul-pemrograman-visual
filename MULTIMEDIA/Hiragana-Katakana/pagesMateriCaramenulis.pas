@@ -70,6 +70,7 @@ end;
 
 procedure TpageMateriCaramenulis.initialState(Sender: TObject);
 begin
+  pageMateriCaramenulis.DoubleBuffered := True;
   ResetAnimasi(True);
   grp_AnimasiHiragana.Hide;
   r := 254;
