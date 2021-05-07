@@ -70,6 +70,8 @@ begin
   img_symbolHiragana.Hide;
   img_symbolKatakana.Hide;
   mp_track.Play;
+  img_bAudioOn.Show;
+  img_bAudioOff.Show;
   img_bAudioOff.BringToFront;
 end;
 
@@ -86,6 +88,8 @@ begin
   img_symbolHiragana.Show;
   img_symbolKatakana.Hide;
   mp_track.Play;
+  img_bAudioOn.Show;
+  img_bAudioOff.Show;
   img_bAudioOff.BringToFront;
 end;
 
@@ -102,6 +106,8 @@ begin
   img_symbolHiragana.Hide;
   img_symbolKatakana.Show;
   mp_track.Play;
+  img_bAudioOn.Show;
+  img_bAudioOff.Show;
   img_bAudioOff.BringToFront;
 end;
 
@@ -126,6 +132,8 @@ begin
   img_higana.Hide;
   img_symbolHiragana.Hide;
   img_symbolKatakana.Hide;
+  img_bAudioOn.Hide;
+  img_bAudioOff.Hide;
   if pageDevConsole.bgmAudio = False then
     pageDevConsole.bgmAudio := False
   else if pageDevConsole.bgmAudio = True then

@@ -13,7 +13,9 @@ mkdir dist
 
 if %mode%=="full" goto full_build
 
-if %mode%=="dry" goto assets_duplication 
+if %mode%=="dry" goto assets_duplication
+
+if %mode%==null goto full_build 
 
 :full_build
 echo +++++++++++++++++++++++++++++++++

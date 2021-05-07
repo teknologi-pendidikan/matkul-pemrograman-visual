@@ -94,6 +94,8 @@ begin
   wmp_carabaca.Show;
   wmp_carabaca.controls.play;
   btn_videoForcePlay.Hide;
+  img_bAudioOn.Hide;
+  img_bAudioOff.Hide;
 end;
 
 procedure TpageMateriCarabaca.NarasiOff(Sender: TObject);

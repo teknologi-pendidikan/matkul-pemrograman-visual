@@ -1,11 +1,11 @@
 object PageDisclaimer: TPageDisclaimer
-  Left = 27
-  Top = 141
+  Left = 1358
+  Top = -8
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'PageDisclaimer'
-  ClientHeight = 728
-  ClientWidth = 1008
+  ClientHeight = 745
+  ClientWidth = 1366
   Color = clBtnFace
   DefaultMonitor = dmPrimary
   DragMode = dmAutomatic

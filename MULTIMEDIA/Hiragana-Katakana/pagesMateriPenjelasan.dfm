@@ -1,6 +1,6 @@
 object pageMateriPenjelasan: TpageMateriPenjelasan
-  Left = -232
-  Top = 197
+  Left = 165
+  Top = 11
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMateriPenjelasan'
@@ -9033,6 +9033,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
       73DE3CBFD05E04FD1BB81FE8F9FEB4FF00A999AF15E67FEB77F61FF697FACF8E
       CA31BEC3FB03FB5FEA7F51FECAC8B25F67ED3FB6B15F59F6FF0059E7F6787F65
       EC792A7B50FFD9}
+    Visible = False
     OnClick = img_bAudioOnClick
   end
   object img_bAudioOff: TImage
@@ -9336,6 +9337,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
       C551E7FAEFD57DAFB6FACE3717CDCBF54A7ECF93D9DB9A7CDCF78F2FF417813F
       46EE07FA3E7FAD3FEA666BC5799FFADDFD87FDA5FEB3E3B28C6FB0FEC0FED7FA
       9FD47FB2B22C97D9FB4FEDAC57D67DBFD679FD9E1FD97B1E4A9ED4FFD9}
+    Visible = False
     OnClick = img_bAudioOffClick
   end
   object mmo_Penjelasan: TMemo
