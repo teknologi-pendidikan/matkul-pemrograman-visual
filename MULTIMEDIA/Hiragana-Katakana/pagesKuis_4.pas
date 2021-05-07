@@ -79,7 +79,8 @@ end;
 
 procedure TpageKuis_04.b_aCheckClick(Sender: TObject);
 begin
-  if (rg_qGroup.ItemIndex = 1) or (rg_qGroup.ItemIndex = 2) or (rg_qGroup.ItemIndex = 3)  then
+  if (rg_qGroup.ItemIndex = 1) or (rg_qGroup.ItemIndex = 2) or
+    (rg_qGroup.ItemIndex = 3) then
   begin
     ShowMessage('JAWABAN KAMU SALAH');
     b_aCheck.Hide;
@@ -104,5 +105,5 @@ begin
   pageKuis_05.Show;
 end;
 
-
 end.
+

@@ -22,7 +22,6 @@ type
     img_higana: TImage;
     mmo_Hiragana: TMemo;
     mmo_katakana: TMemo;
-    button_stopaudio: TButton;
     img_bAudioOn: TImage;
     img_bAudioOff: TImage;
     procedure img_buttonKembaliClick(Sender: TObject);
@@ -31,7 +30,6 @@ type
     procedure img_buttonPenjelasanKatakanaClick(Sender: TObject);
     procedure ResetAll(Sender: TObject);
     procedure InitialState(Sender: TObject);
-    procedure button_stopaudioClick(Sender: TObject);
     procedure img_bAudioOnClick(Sender: TObject);
     procedure img_bAudioOffClick(Sender: TObject);
   private
@@ -132,11 +130,6 @@ begin
     pageDevConsole.bgmAudio := False
   else if pageDevConsole.bgmAudio = True then
     pageDevConsole.mp_bgMusic.Pause;
-end;
-
-procedure TpageMateriPenjelasan.button_stopaudioClick(Sender: TObject);
-begin
-  mp_track.Stop;
 end;
 
 procedure TpageMateriPenjelasan.img_bAudioOnClick(Sender: TObject);

@@ -18,10 +18,14 @@ type
     img_symbolSpeaking: TImage;
     wmp_carabaca: TWindowsMediaPlayer;
     btn_videoForcePlay: TButton;
+    img_bAudioOn: TImage;
+    img_bAudioOff: TImage;
     procedure img_buttonKembaliClick(Sender: TObject);
     procedure initialState(Sender: TObject);
     procedure StartVideo(Sender: TObject);
     procedure btn_videoForcePlayClick(Sender: TObject);
+    procedure NarasiOff(Sender: TObject);
+    procedure NarasiOn(Sender: TObject);
   private
     { Private declarations }
   public
@@ -90,6 +94,18 @@ begin
   wmp_carabaca.Show;
   wmp_carabaca.controls.play;
   btn_videoForcePlay.Hide;
+end;
+
+procedure TpageMateriCarabaca.NarasiOff(Sender: TObject);
+begin
+  mp_CaraBaca.Pause;
+  img_bAudioOn.BringToFront;
+end;
+
+procedure TpageMateriCarabaca.NarasiOn(Sender: TObject);
+begin
+  mp_CaraBaca.Play;
+  img_bAudioOff.BringToFront;
 end;
 
 end.

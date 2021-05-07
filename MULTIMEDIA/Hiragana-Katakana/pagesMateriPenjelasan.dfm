@@ -1,6 +1,6 @@
 object pageMateriPenjelasan: TpageMateriPenjelasan
-  Left = -8
-  Top = -8
+  Left = -232
+  Top = 197
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMateriPenjelasan'
@@ -9463,22 +9463,5 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     ReadOnly = True
     TabOrder = 3
     WantReturns = False
-  end
-  object button_stopaudio: TButton
-    Left = 216
-    Top = 672
-    Width = 121
-    Height = 33
-    Cursor = crHandPoint
-    Caption = 'STOP AUDIO'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
-    TabOrder = 4
-    Visible = False
-    OnClick = button_stopaudioClick
   end
 end

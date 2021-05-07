@@ -42,7 +42,8 @@ uses pagesHasiltest, pagesDevConsole;
 
 procedure TpageKuis_10.b_aCheckClick(Sender: TObject);
 begin
-  if (rg_qGroup.ItemIndex = 0) or (rg_qGroup.ItemIndex = 2) or (rg_qGroup.ItemIndex = 3) then
+  if (rg_qGroup.ItemIndex = 0) or (rg_qGroup.ItemIndex = 2) or
+    (rg_qGroup.ItemIndex = 3) then
   begin
     ShowMessage('JAWABAN KAMU SALAH');
     b_aCheck.Hide;
@@ -71,3 +72,4 @@ begin
 end;
 
 end.
+

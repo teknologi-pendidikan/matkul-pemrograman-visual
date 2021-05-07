@@ -113,7 +113,11 @@ end;
 
 procedure TpageHasiltest.ShowForm(Sender: TObject);
 begin
-  pageDevConsole.mp_bgMusic.Play;
+  if pageDevConsole.bgmAudio = False then
+    pageDevConsole.bgmAudio := False
+  else if pageDevConsole.bgmAudio = True then
+    pageDevConsole.mp_bgMusic.Play;
 end;
 
 end.
+

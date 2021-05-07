@@ -25,8 +25,6 @@ type
     procedure b_playVideoClick(Sender: TObject);
     procedure JawabanBenar(Sender: TObject);
     procedure JawabanSalah(Sender: TObject);
-    procedure P_a3Click(Sender: TObject);
-    procedure P_a4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -84,3 +82,4 @@ begin
 end;
 
 end.
+

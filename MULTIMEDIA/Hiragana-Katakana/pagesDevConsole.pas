@@ -33,12 +33,12 @@ type
     grp_systemAssets: TGroupBox;
     grp_SystemStatus: TGroupBox;
     mp_bgMusic: TMediaPlayer;
-    b_REFRESH: TButton;
     L_qStatus: TLabel;
     b_DestroyForm: TButton;
     b_CreateForm: TButton;
     tmr_KuisTimer: TTimer;
     L_AudioStatus: TLabel;
+    tmr_systemUpdater: TTimer;
     procedure Pq6Click(Sender: TObject);
     procedure Pq5Click(Sender: TObject);
     procedure Pq4Click(Sender: TObject);
@@ -58,10 +58,10 @@ type
     procedure P_DisclaimerClick(Sender: TObject);
     procedure b_TerminateClick(Sender: TObject);
     procedure b_FreeInstanceClick(Sender: TObject);
-    procedure b_REFRESHClick(Sender: TObject);
     procedure b_DestroyFormClick(Sender: TObject);
     procedure b_CreateFormClick(Sender: TObject);
     procedure tmr_KuisTimerTimer(Sender: TObject);
+    procedure tmr_systemUpdaterTimer(Sender: TObject);
   private
     { Private declarations }
   public
@@ -178,12 +178,6 @@ begin
   Application.FreeInstance;
 end;
 
-procedure TpageDevConsole.b_REFRESHClick(Sender: TObject);
-begin
-  L_qStatus.Caption := 'L_qStatus: ' + BoolToStr(quisFinished);
-  L_AudioStatus.Caption := 'Audio Status: ' + BoolToStr(bgmAudio);
-end;
-
 procedure TpageDevConsole.b_DestroyFormClick(Sender: TObject);
 begin
   PageDisclaimer.Destroy;
@@ -230,6 +224,12 @@ end;
 procedure TpageDevConsole.tmr_KuisTimerTimer(Sender: TObject);
 begin
   quizElapsedTime := quizElapsedTime + 1;
+end;
+
+procedure TpageDevConsole.tmr_systemUpdaterTimer(Sender: TObject);
+begin
+  L_qStatus.Caption := 'Quiz Status: ' + BoolToStr(quisFinished);
+  L_AudioStatus.Caption := 'Audio Status: ' + BoolToStr(bgmAudio);
 end;
 
 end.

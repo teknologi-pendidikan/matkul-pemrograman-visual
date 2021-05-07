@@ -38,7 +38,8 @@ uses pagesKuis_10;
 
 procedure TpageKuis_09.b_aCheckClick(Sender: TObject);
 begin
-  if (rg_qGroup.ItemIndex = 1) or (rg_qGroup.ItemIndex = 2) or (rg_qGroup.ItemIndex = 3) then
+  if (rg_qGroup.ItemIndex = 1) or (rg_qGroup.ItemIndex = 2) or
+    (rg_qGroup.ItemIndex = 3) then
   begin
     b_aCheck.Hide;
     b_nextQ.Show;
@@ -67,3 +68,4 @@ begin
 end;
 
 end.
+

@@ -24,7 +24,6 @@ type
     procedure b_playVideoClick(Sender: TObject);
     procedure JawabanBenar(Sender: TObject);
     procedure JawabanSalah(Sender: TObject);
-    procedure img_buttonCaramenulisClick(Sender: TObject);
     procedure b_nextQuestClick(Sender: TObject);
   private
     { Private declarations }
@@ -66,7 +65,6 @@ begin
   result := 0;
 end;
 
-
 procedure TpageKuis_07.b_nextQuestClick(Sender: TObject);
 begin
   wmp_carabaca.controls.stop;
@@ -75,3 +73,4 @@ begin
 end;
 
 end.
+

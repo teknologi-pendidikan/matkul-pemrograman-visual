@@ -1,6 +1,6 @@
 object pageHasiltest: TpageHasiltest
-  Left = -7
-  Top = 2
+  Left = -88
+  Top = 118
   BorderStyle = bsNone
   Caption = 'pageHasiltest'
   ClientHeight = 734

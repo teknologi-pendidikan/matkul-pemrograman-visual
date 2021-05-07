@@ -1,6 +1,6 @@
 object pageDevConsole: TpageDevConsole
-  Left = 349
-  Top = 222
+  Left = 295
+  Top = 204
   BorderStyle = bsSingle
   Caption = 'pageDevConsole'
   ClientHeight = 458
@@ -210,22 +210,13 @@ object pageDevConsole: TpageDevConsole
       TabOrder = 1
       OnClick = b_FreeInstanceClick
     end
-    object b_REFRESH: TButton
-      Left = 24
-      Top = 192
-      Width = 257
-      Height = 49
-      Caption = 'b_REFRESH'
-      TabOrder = 2
-      OnClick = b_REFRESHClick
-    end
     object b_DestroyForm: TButton
       Left = 24
       Top = 88
       Width = 105
       Height = 33
       Caption = 'b_DestroyForm'
-      TabOrder = 3
+      TabOrder = 2
       OnClick = b_DestroyFormClick
     end
     object b_CreateForm: TButton
@@ -234,7 +225,7 @@ object pageDevConsole: TpageDevConsole
       Width = 105
       Height = 33
       Caption = 'b_CreateForm'
-      TabOrder = 4
+      TabOrder = 3
       OnClick = b_CreateFormClick
     end
   end
@@ -282,5 +273,10 @@ object pageDevConsole: TpageDevConsole
     OnTimer = tmr_KuisTimerTimer
     Left = 51
     Top = 375
+  end
+  object tmr_systemUpdater: TTimer
+    OnTimer = tmr_systemUpdaterTimer
+    Left = 148
+    Top = 378
   end
 end
