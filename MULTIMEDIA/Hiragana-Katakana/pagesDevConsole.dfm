@@ -1,6 +1,6 @@
 object pageDevConsole: TpageDevConsole
-  Left = 265
-  Top = 194
+  Left = 349
+  Top = 222
   BorderStyle = bsSingle
   Caption = 'pageDevConsole'
   ClientHeight = 458
@@ -265,6 +265,13 @@ object pageDevConsole: TpageDevConsole
     object L_qStatus: TLabel
       Left = 16
       Top = 24
+      Width = 48
+      Height = 13
+      Caption = 'L_qStatus'
+    end
+    object L_AudioStatus: TLabel
+      Left = 16
+      Top = 45
       Width = 48
       Height = 13
       Caption = 'L_qStatus'

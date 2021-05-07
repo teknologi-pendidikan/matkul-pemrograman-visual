@@ -38,6 +38,7 @@ type
     b_DestroyForm: TButton;
     b_CreateForm: TButton;
     tmr_KuisTimer: TTimer;
+    L_AudioStatus: TLabel;
     procedure Pq6Click(Sender: TObject);
     procedure Pq5Click(Sender: TObject);
     procedure Pq4Click(Sender: TObject);
@@ -66,6 +67,7 @@ type
   public
     quisFinished: Boolean;
     quizElapsedTime: Integer;
+    bgmAudio: Boolean;
     { Public declarations }
   end;
 
@@ -179,6 +181,7 @@ end;
 procedure TpageDevConsole.b_REFRESHClick(Sender: TObject);
 begin
   L_qStatus.Caption := 'L_qStatus: ' + BoolToStr(quisFinished);
+  L_AudioStatus.Caption := 'Audio Status: ' + BoolToStr(bgmAudio);
 end;
 
 procedure TpageDevConsole.b_DestroyFormClick(Sender: TObject);
@@ -226,7 +229,7 @@ end;
 
 procedure TpageDevConsole.tmr_KuisTimerTimer(Sender: TObject);
 begin
-quizElapsedTime:= quizElapsedTime+1;
+  quizElapsedTime := quizElapsedTime + 1;
 end;
 
 end.

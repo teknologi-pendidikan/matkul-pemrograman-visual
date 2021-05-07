@@ -21,10 +21,14 @@ type
     img_wrong: TImage;
     img_benar: TImage;
     b_nextQuest: TButton;
+    b_a3: TButton;
+    b_a4: TButton;
     procedure b_a1Click(Sender: TObject);
     procedure b_a2Click(Sender: TObject);
     procedure b_aCheckClick(Sender: TObject);
     procedure b_nextQuestClick(Sender: TObject);
+    procedure b_a3Click(Sender: TObject);
+    procedure b_a4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -57,9 +61,25 @@ begin
   b_aCheck.Show;
 end;
 
+procedure TpageKuis_04.b_a3Click(Sender: TObject);
+begin
+  mp_track.FileName := 'assets/kuis-audio/4-3-kanji.mp3';
+  mp_track.Open;
+  mp_track.Play;
+  b_aCheck.Show;
+end;
+
+procedure TpageKuis_04.b_a4Click(Sender: TObject);
+begin
+  mp_track.FileName := 'assets/kuis-audio/4-4-romaji.mp3';
+  mp_track.Open;
+  mp_track.Play;
+  b_aCheck.Show;
+end;
+
 procedure TpageKuis_04.b_aCheckClick(Sender: TObject);
 begin
-  if rg_qGroup.ItemIndex = 1 then
+  if (rg_qGroup.ItemIndex = 1) or (rg_qGroup.ItemIndex = 2) or (rg_qGroup.ItemIndex = 3)  then
   begin
     ShowMessage('JAWABAN KAMU SALAH');
     b_aCheck.Hide;
@@ -83,5 +103,6 @@ begin
   pageKuis_04.Hide;
   pageKuis_05.Show;
 end;
+
 
 end.

@@ -45,7 +45,6 @@ uses pagesKuis_6, pagesKuis_5, pagesKuis_4, pagesKuis_3, pagesKuis_2,
 
 {$R *.dfm}
 
-
 procedure TpageHasiltest.b_resultsTestClick(Sender: TObject);
 begin
   // Kalkulasi Nilai
@@ -118,4 +117,3 @@ begin
 end;
 
 end.
-

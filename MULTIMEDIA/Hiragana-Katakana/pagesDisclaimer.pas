@@ -56,18 +56,21 @@ procedure TPageDisclaimer.Show(Sender: TObject);
 begin
   pageDevConsole.mp_bgMusic.Play;
   pageDevConsole.quisFinished := False;
+  pageDevConsole.bgmAudio := True;
 end;
 
 procedure TPageDisclaimer.img_AudioOnClick(Sender: TObject);
 begin
   pageDevConsole.mp_bgMusic.Pause;
   img_bAudioOff.BringToFront;
+  pageDevConsole.bgmAudio := False;
 end;
 
 procedure TPageDisclaimer.AudioOff(Sender: TObject);
 begin
   pageDevConsole.mp_bgMusic.play;
   img_AudioOn.BringToFront;
+  pageDevConsole.bgmAudio := True;
 end;
 
 end.

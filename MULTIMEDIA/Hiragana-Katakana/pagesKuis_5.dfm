@@ -1,6 +1,6 @@
 object pageKuis_05: TpageKuis_05
-  Left = -78
-  Top = 92
+  Left = -137
+  Top = 154
   BorderStyle = bsNone
   Caption = 'pageKuis_05'
   ClientHeight = 729
@@ -1557,7 +1557,7 @@ object pageKuis_05: TpageKuis_05
       ParentFont = False
     end
     object P_a1: TPanel
-      Left = 480
+      Left = 479
       Top = 136
       Width = 273
       Height = 41
@@ -1570,11 +1570,11 @@ object pageKuis_05: TpageKuis_05
       ParentFont = False
       TabOrder = 0
       Visible = False
-      OnClick = P_a1Click
+      OnClick = JawabanBenar
     end
     object P_a2: TPanel
-      Left = 480
-      Top = 192
+      Left = 479
+      Top = 196
       Width = 273
       Height = 41
       Caption = 'B/ Huruf Katakana'
@@ -1586,7 +1586,7 @@ object pageKuis_05: TpageKuis_05
       ParentFont = False
       TabOrder = 1
       Visible = False
-      OnClick = P_a2Click
+      OnClick = JawabanSalah
     end
     object b_playVideo: TButton
       Left = 16
@@ -1627,6 +1627,38 @@ object pageKuis_05: TpageKuis_05
           0000}
       end
     end
+    object P_a3: TPanel
+      Left = 479
+      Top = 257
+      Width = 273
+      Height = 41
+      Caption = 'C/ Huruf Kanji'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlue
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 4
+      Visible = False
+      OnClick = JawabanSalah
+    end
+    object P_a4: TPanel
+      Left = 479
+      Top = 317
+      Width = 273
+      Height = 41
+      Caption = 'D/ Romaji Hana'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlue
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 5
+      Visible = False
+      OnClick = JawabanSalah
+    end
   end
   object b_nextQuest: TButton
     Left = 1016
@@ -1649,8 +1681,7 @@ object pageKuis_05: TpageKuis_05
     Width = 253
     Height = 30
     AutoRewind = False
-    FileName = 
-      'assets\audio\bunyidasar.mp3'
+    FileName = 'assets\audio\bunyidasar.mp3'
     Visible = False
     TabOrder = 2
   end

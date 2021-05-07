@@ -1,6 +1,6 @@
 object pageKuis_03: TpageKuis_03
-  Left = -8
-  Top = -8
+  Left = -28
+  Top = 132
   BorderStyle = bsNone
   Caption = 'pageKuis_03'
   ClientHeight = 745
@@ -2739,16 +2739,17 @@ object pageKuis_03: TpageKuis_03
       TabOrder = 0
     end
     object rg_qGroup: TRadioGroup
-      Left = 488
-      Top = 136
+      Left = 489
+      Top = 126
       Width = 353
-      Height = 193
+      Height = 200
       Caption = 'Pilihan Jawaban'
       Color = clBtnFace
       Items.Strings = (
         'Jawaban A'
         'Jawaban B'
-        'Jawaban C')
+        'Jawaban C'
+        'Jawaban D')
       ParentBackground = False
       ParentColor = False
       TabOrder = 1
@@ -2770,8 +2771,8 @@ object pageKuis_03: TpageKuis_03
       OnClick = b_aCheckClick
     end
     object b_a1: TButton
-      Left = 512
-      Top = 176
+      Left = 518
+      Top = 159
       Width = 169
       Height = 33
       Caption = 'Putar Jawaban A'
@@ -2785,8 +2786,8 @@ object pageKuis_03: TpageKuis_03
       OnClick = b_a1Click
     end
     object b_a2: TButton
-      Left = 512
-      Top = 224
+      Left = 518
+      Top = 199
       Width = 169
       Height = 33
       Caption = 'Putar Jawaban B'
@@ -2800,8 +2801,8 @@ object pageKuis_03: TpageKuis_03
       OnClick = b_a2Click
     end
     object b_a3: TButton
-      Left = 512
-      Top = 280
+      Left = 517
+      Top = 238
       Width = 169
       Height = 33
       Caption = 'Putar Jawaban C'
@@ -2813,6 +2814,21 @@ object pageKuis_03: TpageKuis_03
       ParentFont = False
       TabOrder = 5
       OnClick = b_a3Click
+    end
+    object b_a4: TButton
+      Left = 518
+      Top = 280
+      Width = 169
+      Height = 33
+      Caption = 'Putar Jawaban C'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 6
+      OnClick = b_a4Click
     end
   end
   object b_nextQ: TButton

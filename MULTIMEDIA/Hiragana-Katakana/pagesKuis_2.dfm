@@ -1,6 +1,6 @@
 object pageKuis_02: TpageKuis_02
-  Left = -7
-  Top = 7
+  Left = -170
+  Top = 135
   BorderStyle = bsNone
   Caption = 'pageKuis_02'
   ClientHeight = 729
@@ -2743,7 +2743,7 @@ object pageKuis_02: TpageKuis_02
       ParentFont = False
       TabOrder = 2
       Visible = False
-      OnClick = P_a1Click
+      OnClick = JawabanBenar
     end
     object P_a2: TPanel
       Left = 40
@@ -2759,7 +2759,7 @@ object pageKuis_02: TpageKuis_02
       ParentFont = False
       TabOrder = 3
       Visible = False
-      OnClick = P_a2Click
+      OnClick = JawabanSalah
     end
     object P_a3: TPanel
       Left = 40
@@ -2775,7 +2775,23 @@ object pageKuis_02: TpageKuis_02
       ParentFont = False
       TabOrder = 4
       Visible = False
-      OnClick = P_a3Click
+      OnClick = JawabanSalah
+    end
+    object P_a4: TPanel
+      Left = 40
+      Top = 338
+      Width = 273
+      Height = 41
+      Caption = 'D/ Macam Huruf Katakana'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlue
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 5
+      Visible = False
+      OnClick = JawabanSalah
     end
   end
   object b_nextQuest: TButton

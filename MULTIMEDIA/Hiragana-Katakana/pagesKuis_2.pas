@@ -21,11 +21,11 @@ type
     img_wrong: TImage;
     img_benar: TImage;
     b_nextQuest: TButton;
+    P_a4: TPanel;
     procedure b_playAudioClick(Sender: TObject);
     procedure b_nextQuestClick(Sender: TObject);
-    procedure P_a1Click(Sender: TObject);
-    procedure P_a2Click(Sender: TObject);
-    procedure P_a3Click(Sender: TObject);
+    procedure JawabanBenar(Sender: TObject);
+    procedure JawabanSalah(Sender: TObject);
   private
     { Private declarations }
   public
@@ -50,6 +50,7 @@ begin
   P_a1.Show;
   P_a2.Show;
   P_a3.Show;
+  P_a4.Show;
 end;
 
 procedure TpageKuis_02.b_nextQuestClick(Sender: TObject);
@@ -58,7 +59,7 @@ begin
   pageKuis_03.Show;
 end;
 
-procedure TpageKuis_02.P_a1Click(Sender: TObject);
+procedure TpageKuis_02.JawabanBenar(Sender: TObject);
 begin
   img_benar.show;
   b_nextQuest.Show;
@@ -68,7 +69,7 @@ begin
   result := 1;
 end;
 
-procedure TpageKuis_02.P_a2Click(Sender: TObject);
+procedure TpageKuis_02.JawabanSalah(Sender: TObject);
 begin
   img_wrong.show;
   b_nextQuest.Show;
@@ -78,15 +79,4 @@ begin
   result := 0;
 end;
 
-procedure TpageKuis_02.P_a3Click(Sender: TObject);
-begin
-  img_wrong.show;
-  b_nextQuest.Show;
-  mp_track.Stop;
-  P_a1.Hide;
-  P_a2.Hide;
-  result := 0;
-end;
-
 end.
-

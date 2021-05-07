@@ -1,11 +1,11 @@
 object pageMateriPenjelasan: TpageMateriPenjelasan
-  Left = 7
-  Top = 7
+  Left = -8
+  Top = -8
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsNone
   Caption = 'pageMateriPenjelasan'
-  ClientHeight = 729
-  ClientWidth = 1350
+  ClientHeight = 745
+  ClientWidth = 1366
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -8745,8 +8745,8 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
       A7CB651BD9277E87DD15FD2A7E441400FFD9}
   end
   object img_bAudioOn: TImage
-    Left = 1212
-    Top = 675
+    Left = 1167
+    Top = 676
     Width = 143
     Height = 46
     Picture.Data = {
@@ -9036,8 +9036,8 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
     OnClick = img_bAudioOnClick
   end
   object img_bAudioOff: TImage
-    Left = 1212
-    Top = 675
+    Left = 1165
+    Top = 676
     Width = 143
     Height = 46
     Picture.Data = {
@@ -9363,6 +9363,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
       'tiga-tiganya digunakan sesuai aturan dalam '
       'bahasa Jepang.')
     ParentFont = False
+    ReadOnly = True
     TabOrder = 0
     WantReturns = False
   end
@@ -9416,6 +9417,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
       '4/ Penulisan furigana, yaitu cara membantu untuk membaca huruf '
       'kanji. Biasanya ditulis diatas atau dibawah huruf kanji.')
     ParentFont = False
+    ReadOnly = True
     TabOrder = 2
     WantReturns = False
   end
@@ -9458,6 +9460,7 @@ object pageMateriPenjelasan: TpageMateriPenjelasan
         's '
       'dan bersudut.')
     ParentFont = False
+    ReadOnly = True
     TabOrder = 3
     WantReturns = False
   end

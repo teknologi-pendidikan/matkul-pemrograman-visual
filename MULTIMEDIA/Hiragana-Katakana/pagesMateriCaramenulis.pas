@@ -62,7 +62,10 @@ procedure TpageMateriCaramenulis.img_buttonKembaliClick(Sender: TObject);
 begin
   pageMateriCaramenulis.Hide;
   pageMateri.Show;
-  pageDevConsole.mp_bgMusic.Play;
+  if pageDevConsole.bgmAudio = False then
+    pageDevConsole.bgmAudio := False
+  else if pageDevConsole.bgmAudio = True then
+    pageDevConsole.mp_bgMusic.Pause;
 end;
 
 procedure TpageMateriCaramenulis.initialState(Sender: TObject);
@@ -76,7 +79,10 @@ begin
   grp_AnimasiHiragana.Color := color;
   grp_strokeTutorial.Hide;
   grp_AnimasiHiragana.Hide;
-  pageDevConsole.mp_bgMusic.Pause;
+  if pageDevConsole.bgmAudio = False then
+    pageDevConsole.bgmAudio := False
+  else if pageDevConsole.bgmAudio = True then
+    pageDevConsole.mp_bgMusic.Pause;
 end;
 
 procedure TpageMateriCaramenulis.img_buttonPenjelasanKatakanaClick(
@@ -168,3 +174,4 @@ begin
 end;
 
 end.
+

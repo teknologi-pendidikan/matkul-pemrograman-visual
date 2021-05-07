@@ -1,6 +1,6 @@
 object pageKuis_09: TpageKuis_09
-  Left = 218
-  Top = 127
+  Left = 301
+  Top = 107
   BorderStyle = bsNone
   Caption = 'pageKuis_09'
   ClientHeight = 441
@@ -2709,7 +2709,8 @@ object pageKuis_09: TpageKuis_09
       Items.Strings = (
         'Arigatou'
         'Sayonara'
-        'Arifuru')
+        'Oyasumi'
+        'Ohayou')
       ParentBackground = False
       ParentColor = False
       TabOrder = 0

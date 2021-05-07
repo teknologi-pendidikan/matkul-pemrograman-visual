@@ -1,6 +1,6 @@
 object pageKuis_04: TpageKuis_04
-  Left = 275
-  Top = 259
+  Left = -263
+  Top = 203
   BorderStyle = bsNone
   Caption = 'pageKuis_04'
   ClientHeight = 729
@@ -2722,19 +2722,21 @@ object pageKuis_04: TpageKuis_04
       Left = 488
       Top = 96
       Width = 353
-      Height = 193
+      Height = 218
       Caption = 'Pilihan Jawaban'
       Color = clBtnFace
       Items.Strings = (
         'Jawaban A'
-        'Jawaban B')
+        'Jawaban B'
+        'Jawaban C'
+        'Jawaban D')
       ParentBackground = False
       ParentColor = False
       TabOrder = 1
     end
     object b_aCheck: TButton
       Left = 488
-      Top = 304
+      Top = 329
       Width = 353
       Height = 57
       Caption = 'Cek Jawaban!'
@@ -2749,8 +2751,8 @@ object pageKuis_04: TpageKuis_04
       OnClick = b_aCheckClick
     end
     object b_a1: TButton
-      Left = 512
-      Top = 144
+      Left = 517
+      Top = 137
       Width = 169
       Height = 33
       Caption = 'Putar Jawaban A'
@@ -2764,8 +2766,8 @@ object pageKuis_04: TpageKuis_04
       OnClick = b_a1Click
     end
     object b_a2: TButton
-      Left = 512
-      Top = 224
+      Left = 517
+      Top = 178
       Width = 169
       Height = 33
       Caption = 'Putar Jawaban B'
@@ -2777,6 +2779,36 @@ object pageKuis_04: TpageKuis_04
       ParentFont = False
       TabOrder = 4
       OnClick = b_a2Click
+    end
+    object b_a3: TButton
+      Left = 517
+      Top = 224
+      Width = 169
+      Height = 33
+      Caption = 'Putar Jawaban C'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 5
+      OnClick = b_a3Click
+    end
+    object b_a4: TButton
+      Left = 517
+      Top = 271
+      Width = 169
+      Height = 33
+      Caption = 'Putar Jawaban D'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 6
+      OnClick = b_a4Click
     end
   end
   object b_nextQuest: TButton

@@ -1,11 +1,11 @@
 object pageMateriCaramenulis: TpageMateriCaramenulis
-  Left = 131
-  Top = 223
+  Left = -7
+  Top = 0
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'pageMateriCaramenulis'
-  ClientHeight = 729
-  ClientWidth = 1350
+  ClientHeight = 736
+  ClientWidth = 681
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -4758,6 +4758,7 @@ object pageMateriCaramenulis: TpageMateriCaramenulis
         'Di samping dapat kita lihat contoh dari huruf dasar '
         'hiragana yaitu A I U E.')
       ParentFont = False
+      ReadOnly = True
       TabOrder = 0
     end
   end
@@ -4845,6 +4846,7 @@ object pageMateriCaramenulis: TpageMateriCaramenulis
         'Di samping dapat kita lihat contoh dari huruf dasar '
         'hiragana yaitu A I U E.')
       ParentFont = False
+      ReadOnly = True
       TabOrder = 0
     end
   end

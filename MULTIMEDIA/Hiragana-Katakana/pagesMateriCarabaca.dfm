@@ -1,6 +1,6 @@
 object pageMateriCarabaca: TpageMateriCarabaca
-  Left = -7
-  Top = 7
+  Left = -137
+  Top = 169
   BorderIcons = [biMinimize, biMaximize]
   BorderStyle = bsNone
   Caption = 'pageMateriCarabaca'
@@ -2843,6 +2843,7 @@ object pageMateriCarabaca: TpageMateriCarabaca
       'konsonan tertentu. Bunyi dalam bahasa Jepang terdiri dari '
       'kombinasi vokal dan konsonan.')
     ParentFont = False
+    ReadOnly = True
     TabOrder = 0
     WantReturns = False
   end

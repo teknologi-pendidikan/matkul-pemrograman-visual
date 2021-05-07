@@ -17,12 +17,13 @@ type
     Ppnl: TPanel;
     wmp_carabaca: TWindowsMediaPlayer;
     b_nextQuest: TButton;
-    img_buttonPenjelasan: TImage;
-    img_buttonCarabaca: TImage;
-    img_buttonCaramenulis: TImage;
+    img_a1: TImage;
+    img_a2: TImage;
+    img_a3: TImage;
+    img_a4: TImage;
     procedure b_playVideoClick(Sender: TObject);
-    procedure img_buttonPenjelasanClick(Sender: TObject);
-    procedure img_buttonCarabacaClick(Sender: TObject);
+    procedure JawabanBenar(Sender: TObject);
+    procedure JawabanSalah(Sender: TObject);
     procedure img_buttonCaramenulisClick(Sender: TObject);
     procedure b_nextQuestClick(Sender: TObject);
   private
@@ -45,40 +46,26 @@ procedure TpageKuis_07.b_playVideoClick(Sender: TObject);
 begin
   wmp_carabaca.controls.play;
   b_playVideo.Hide;
-  img_buttonPenjelasan.Show;
-  img_buttonCarabaca.Show;
-  img_buttonCaramenulis.show;
+  img_a1.Show;
+  img_a2.Show;
+  img_a3.Show;
+  img_a4.Show;
 end;
 
-procedure TpageKuis_07.img_buttonPenjelasanClick(Sender: TObject);
+procedure TpageKuis_07.JawabanBenar(Sender: TObject);
 begin
-  img_buttonPenjelasan.Show;
-  img_buttonCarabaca.Hide;
-  img_buttonCaramenulis.Hide;
   ShowMessage('Yess... Jawaban Kamu Benar!!');
   b_nextQuest.Show;
   result := 1;
 end;
 
-procedure TpageKuis_07.img_buttonCarabacaClick(Sender: TObject);
+procedure TpageKuis_07.JawabanSalah(Sender: TObject);
 begin
-  img_buttonPenjelasan.Hide;
-  img_buttonCarabaca.Show;
-  img_buttonCaramenulis.Hide;
   ShowMessage('Maaf, jawaban kamu kurang tepat!');
   b_nextQuest.Show;
   result := 0;
 end;
 
-procedure TpageKuis_07.img_buttonCaramenulisClick(Sender: TObject);
-begin
-  img_buttonPenjelasan.Hide;
-  img_buttonCarabaca.Hide;
-  img_buttonCaramenulis.show;
-  ShowMessage('Maaf, jawaban kamu kurang tepat!');
-  b_nextQuest.Show;
-  result := 0;
-end;
 
 procedure TpageKuis_07.b_nextQuestClick(Sender: TObject);
 begin

@@ -44,12 +44,18 @@ begin
   wmp_carabaca.controls.stop;
   pageMateriCarabaca.Hide;
   pageMateri.Show;
-  pageDevConsole.mp_bgMusic.Play;
+  if pageDevConsole.bgmAudio = False then
+    pageDevConsole.bgmAudio := False
+  else if pageDevConsole.bgmAudio = True then
+    pageDevConsole.mp_bgMusic.Pause;
 end;
 
 procedure TpageMateriCarabaca.initialState(Sender: TObject);
 begin
-  pageDevConsole.mp_bgMusic.Pause;
+  if pageDevConsole.bgmAudio = False then
+    pageDevConsole.bgmAudio := False
+  else if pageDevConsole.bgmAudio = True then
+    pageDevConsole.mp_bgMusic.Pause;
   L_PendingPlay.Show;
   mmo_carabaca.Show;
   wmp_carabaca.Hide;

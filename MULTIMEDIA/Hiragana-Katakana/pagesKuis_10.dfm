@@ -1,6 +1,6 @@
 object pageKuis_10: TpageKuis_10
-  Left = 347
-  Top = 201
+  Left = 102
+  Top = 126
   BorderStyle = bsNone
   Caption = 'pageKuis_10'
   ClientHeight = 441
@@ -2965,7 +2965,8 @@ object pageKuis_10: TpageKuis_10
       Items.Strings = (
         'Katakana'
         'Hiragana'
-        'Kanji')
+        'Kanji'
+        'Romaji')
       ParentBackground = False
       ParentColor = False
       TabOrder = 0

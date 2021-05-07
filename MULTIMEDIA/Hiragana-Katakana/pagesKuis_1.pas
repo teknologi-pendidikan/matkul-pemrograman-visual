@@ -15,8 +15,10 @@ type
     L_Quiestion: TLabel;
     img_buttonPenjelasanHiragana: TImage;
     img_buttonPenjelasanKatakana: TImage;
-    procedure img_buttonPenjelasanHiraganaClick(Sender: TObject);
-    procedure img_buttonPenjelasanKatakanaClick(Sender: TObject);
+    img_JawabanKanji: TImage;
+    img_JawabanRomaji: TImage;
+    procedure JawabanSalah(Sender: TObject);
+    procedure JawabanBenar(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,7 +35,7 @@ uses pagesKuis_2;
 
 {$R *.dfm}
 
-procedure TpageKuis_01.img_buttonPenjelasanHiraganaClick(Sender: TObject);
+procedure TpageKuis_01.JawabanSalah(Sender: TObject);
 begin
   ShowMessage('Maaf, jawaban kamu masih salah');
   pageKuis_01.Hide;
@@ -41,7 +43,7 @@ begin
   result := 1;
 end;
 
-procedure TpageKuis_01.img_buttonPenjelasanKatakanaClick(Sender: TObject);
+procedure TpageKuis_01.JawabanBenar(Sender: TObject);
 begin
   ShowMessage('Hore! Jawaban Kamu Benar!');
   pageKuis_01.Hide;
