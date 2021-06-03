@@ -4,7 +4,7 @@ object Form1: TForm1
   Width = 443
   Height = 294
   Caption = 'Form1'
-  Color = clBtnFace
+  Color = clTeal
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -20,7 +20,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'KLASIFIKASI KOTA'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clWhite
     Font.Height = -20
     Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold]
@@ -33,7 +33,7 @@ object Form1: TForm1
     Height = 16
     Caption = 'JUMLAH PENDUDUK'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clYellow
     Font.Height = -13
     Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold]
@@ -46,7 +46,7 @@ object Form1: TForm1
     Height = 16
     Caption = 'KLASIFIKASI'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clYellow
     Font.Height = -13
     Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold]

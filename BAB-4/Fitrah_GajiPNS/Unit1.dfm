@@ -3,8 +3,8 @@ object Form1: TForm1
   Top = 274
   Width = 714
   Height = 379
-  Caption = '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
-  Color = clBtnFace
+  Caption = 'Kategoti Gaji PNS'
+  Color = clOlive
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -21,7 +21,7 @@ object Form1: TForm1
     Height = 16
     Caption = 'Masa Bekerja'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clWhite
     Font.Height = -13
     Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold]
@@ -34,7 +34,7 @@ object Form1: TForm1
     Height = 16
     Caption = 'Gaji Saat Ini'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clWhite
     Font.Height = -13
     Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold]
@@ -48,12 +48,13 @@ object Form1: TForm1
     Caption = 'Kategori Gaji Pokok PNS per Golongan'
     Color = clWindow
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clBlue
+    Font.Color = clYellow
     Font.Height = -19
     Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
+    Visible = False
   end
   object L3: TLabel
     Left = 24
@@ -62,7 +63,7 @@ object Form1: TForm1
     Height = 16
     Caption = 'Golongan'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clWhite
     Font.Height = -13
     Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold]
